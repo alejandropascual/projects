@@ -1,0 +1,244 @@
+//
+// LAYOUT MIO THEME
+// --------------------------------------------------
+
+
+//a:hover, a:focus { text-decoration: underline; }
+
+/* BOXED O FULLWIDTH
+----------------------------------------------- */
+
+.boxed .container{}
+.fullwidth .container{ width: 100%;}
+.fullwidth-1260 .container{ width: 100%; max-width: 1260px; }
+
+//ampliar hasta los bordes
+.boxed.display-extend-yes,
+.fullwidth-1260.display-extend-yes {
+		
+		//imagen y slider de lado a lado
+		#layout-slider1,
+		#layout-slider2 {
+			.container {
+              width: 100% !important;
+              max-width: 100% !important;
+            }
+		}
+}
+
+/* CONTENT TRANSPARENT
+----------------------------------------------- */
+
+.main-content-transparent-yes {
+  #main-content { background-color: transparent !important; background-image: none !important; }
+}
+
+
+/*	LAYOUT IMAGE 
+----------------------------------------------- */
+
+.layout-image-wrap{
+	width: 100%;
+	// height: 300px; altura variable desde js para mantener proporcion
+	overflow: hidden;
+	>img.layout-image-center {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+
+
+
+/* LAYOUT SIDEBARS - RESPONSIVE
+----------------------------------------------- */
+// Se comporta como tabla para mantener los anchos de los sidebars
+// cuando <768 se apilan leftSidebar-content-rightSidebar
+
+//Solo tabla si tiene sidebar porque si no da problemas
+.has-left-sidebar .table-container,
+.has-right-sidebar .table-container{
+	display: table;
+	vertical-align: top;
+    border-collapse: collapse;
+}
+#left-sidebar {
+	display: table-cell; 
+	vertical-align: top;
+	overflow: hidden;
+	padding: 10px;
+	width: 200px; min-width: 200px; max-width: 200px;
+	&.narrow { width: 200px; min-width: 200px; max-width: 200px; }
+	&.normal { width: 250px; min-width: 250px; max-width: 250px; }
+	&.wide   { width: 300px; min-width: 300px; max-width: 300px; }
+}
+#right-sidebar {
+	display: table-cell; 
+	vertical-align: top;
+	overflow: hidden;
+    padding: 10px;
+	width: 200px; min-width: 200px; max-width: 200px;
+	&.narrow { width: 200px; min-width: 200px; max-width: 200px; }
+	&.normal { width: 250px; min-width: 250px; max-width: 250px; }
+	&.wide   { width: 300px; min-width: 300px; max-width: 300px; }
+}
+#main-content {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+}
+.no-left-sidebar.no-right-sidebar #main-content {
+  display: block;
+}
+
+//Me llevo esto para que sea variable
+/*
+.responsive-sidebars-yes {
+
+	@media screen and (max-width:769px) {
+	
+		//Ya no es una tabla
+		.table-container { display: block; }
+		#left-sidebar,
+		#right-sidebar,
+		#main-content {
+			display: block;
+			width: 100%;
+			min-width: inherit;
+			max-width: inherit;
+		}
+		#left-sidebar { border-right: none; }
+		#right-sidebar { border-left: none; }
+		
+		//Mostrar ocultar sidebars
+		&.responsive-sidebars-both {
+		
+		}
+		&.responsive-sidebars-left {
+			#right-sidebar { display: none; }
+		}
+		&.responsive-sidebars-right {
+			#left-sidebar { display: none; }
+		}
+		&.responsive-sidebars-none {
+			#left-sidebar { display: none; }
+			#right-sidebar { display: none; }
+		}
+		
+	}
+}
+
+.responsive-sidebars-floated {
+
+  @media screen and (max-width:769px) {
+
+    //Ya no es una tabla
+    .table-container { display: block; }
+    #main-content {
+      display: block;
+      width: 100%;
+      min-width: inherit;
+      max-width: inherit;
+    }
+    #left-sidebar { border-right: none; }
+    #right-sidebar { border-left: none; }
+
+
+    #left-sidebar {
+      z-index:1000;
+      position:fixed;
+      top:0px; bottom:0px;
+      left:-350px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+      &.open { left: 0px; transition: all 0.3s ease; }
+      &>.row {
+        height: 100%;
+        overflow: scroll;
+      }
+    }
+    #left-sidebar-open {
+      z-index: 1001;
+      position: fixed;
+      bottom: 60px;
+      left: 0px;
+      width: 30px;
+      height: 60px;
+      display:block;
+      background-color: black;
+      border:1px solid #ababab;
+      border-left: 0px;
+      cursor: pointer;
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+      &:before {
+        content: '\f105';
+        font-family: 'FontAwesome';
+        line-height: 60px;
+        padding-left: 12px;
+        color:white;
+      }
+      &.open:before { content: '\f104'; }
+    }
+
+    #right-sidebar {
+      z-index:1000;
+      position:fixed;
+      top:0px; bottom:0px;
+      right:-350px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+      &.open { right: 0px; transition: all 0.3s ease; }
+      &>.row {
+        height: 100%;
+        overflow: scroll;
+      }
+    }
+    #right-sidebar-open {
+      z-index: 1001;
+      position: fixed;
+      bottom: 60px;
+      right: 0px;
+      width: 30px;
+      height: 60px;
+      display:block;
+      background-color: black;
+      border:1px solid #ababab;
+      border-right: 0px;
+      cursor: pointer;
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+      &:before {
+        content: '\f104';
+        font-family: 'FontAwesome';
+        line-height: 60px;
+        padding-left: 12px;
+        color:white;
+      }
+      &.open:before { content: '\f105'; }
+    }
+
+  }
+}
+*/
+
+
+/*	LAYOUT FOOTER
+----------------------------------------------- */
+
+#footer { 
+	.container {
+
+      .widget-area {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+}
+
+/*	LAYOUT SOCKET 
+----------------------------------------------- */
+
+#socket {
+	//.container { padding:15px; }
+}
+

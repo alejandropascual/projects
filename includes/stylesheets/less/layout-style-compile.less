@@ -1,0 +1,1337 @@
+
+
+// CONFIGURACION PERSONALIZADA DEL THEME //
+// Se compila a partir de las variables del estilo
+// que vienen inicialmente de layout-style-variables.less
+// o bien al guardar el estilo personal desde settings-less-dynamic.php
+
+//$pattern_path = get_template_directory_uri().'/includes/stylesheets/images/patterns/';
+//background-image: url('".$pattern_path.get_style_option('header_pattern').".png');
+//background-attachment: scroll;
+//background-position: 0% 0%;
+//background-repeat: repeat repeat;
+
+//Aqui solo deberia aparecer lo de los colores y patrones para el tema
+
+html,body {
+	background-color: white;
+	color: black;
+    font-size: @main_font_size;
+}
+
+//Preloader pace
+.pace .pace-progress {
+  background-color: @main_backcolor;
+}
+
+.pace .pace-progress:after {
+  color: @main_color;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 { font-family: @heading_font; }
+body {
+    font-family:@body_font;
+	background-color: @general_backcolor;
+	background-image: @general_pattern;
+	background-attachment: @general_pattern_scroll;
+	background-position: 0% 0%;
+	background-repeat: repeat repeat;
+}
+.site-title { font-family:@blog_title_font; }
+
+h1 { font-size: @font_size_h1; }
+h2 { font-size: @font_size_h2; }
+h3 { font-size: @font_size_h3; }
+h4 { font-size: @font_size_h4; }
+h5 { font-size: @font_size_h5; }
+h6 { font-size: @font_size_h6; }
+//html { font-size: @font_size_body; }
+
+//#menu-header {
+  .top-wrapper, .top-wrapper a { font-size: @header_top_font_size; .fa { font-size: 125%; } }
+  .center-wrapper, .center-wrapper a { font-size: @header_bottom_font_size; .fa { font-size: 125%; } }
+  .bottom-wrapper, .bottom-wrapper a { font-size: @header_bottom_font_size; .fa { font-size: 125%; } }
+//}
+#main {
+  #left-sidebar { font-size: @left_font_size; }
+  #main-content { font-size: @main_font_size; }
+  #right-sidebar { font-size: @right_font_size; }
+}
+#footer { font-size: @footer_font_size; }
+#socket { font-size: @socket_font_size; .fa { font-size: 125%; }  }
+
+
+
+
+//Botones tipo
+.button-style-1,
+.button-style-2,
+.button-style-3,
+.button-style-4,
+input.wpcf7-submit {
+  display: inline-block; padding: 6px 30px;
+  cursor: pointer;
+  line-height: 120%;
+  width: auto;
+  &:hover { text-decoration: none; }
+  &.as_input {
+    cursor: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+//Colores del link
+.button-style-1,
+input.wpcf7-submit {
+  background-color: @main_link_color !important;
+  color: @main_alt_backcolor !important;
+  border: 1px solid transparent !important;
+  &.active,
+  &:hover {
+    background-color: @main_alt_backcolor !important;
+    color: @main_link_color !important;
+    border:1px solid @main_link_color !important;
+  }
+}
+
+//Colores del link al reves -> al border
+.button-style-2 {
+  background-color: transparent !important;
+  color: @main_link_color !important;
+  border: 1px solid @main_link_color !important;
+  &.active,
+  &:hover {
+    background-color: @main_link_color !important;
+    color: @main_alt_backcolor !important;
+    border:1px solid @main_link_color !important;
+  }
+}
+
+#left-sidebar {
+  .button-style-1,
+  input.wpcf7-submit {
+    background-color: @left_link_color !important;
+    color: @left_backcolor !important;
+    border: 1px solid transparent !important;
+    &.active,
+    &:hover {
+      background-color: @left_backcolor !important;
+      color: @left_link_color !important;
+      border:1px solid @left_link_color !important;
+    }
+  }
+
+  .button-style-2 {
+    background-color: transparent !important;
+    color: @left_link_color !important;
+    border: 1px solid @left_link_color !important;
+    &.active,
+    &:hover {
+      background-color: @left_link_color !important;
+      color: @left_backcolor !important;
+      border:1px solid @left_link_color !important;
+    }
+  }
+}
+
+#right-sidebar {
+  .button-style-1,
+  input.wpcf7-submit {
+    background-color: @right_link_color !important;
+    color: @right_backcolor !important;
+    border: 1px solid transparent !important;
+    &.active,
+    &:hover {
+      background-color: @right_backcolor !important;
+      color: @right_link_color !important;
+      border:1px solid @right_link_color !important;
+    }
+  }
+
+  .button-style-2 {
+    background-color: transparent !important;
+    color: @right_link_color !important;
+    border: 1px solid @right_link_color !important;
+    &.active,
+    &:hover {
+      background-color: @right_link_color !important;
+      color: @right_backcolor !important;
+      border:1px solid @right_link_color !important;
+    }
+  }
+}
+
+#footer {
+  .button-style-1,
+  input.wpcf7-submit {
+    background-color: @footer_link_color !important;
+    color: @footer_backcolor !important;
+    border: 1px solid transparent !important;
+    &.active,
+    &:hover {
+      background-color: @footer_backcolor !important;
+      color: @footer_link_color !important;
+      border:1px solid @footer_link_color !important;
+    }
+  }
+
+  .button-style-2 {
+    background-color: transparent !important;
+    color: @footer_link_color !important;
+    border: 1px solid @footer_link_color !important;
+    &.active,
+    &:hover {
+      background-color: @footer_link_color !important;
+      color: @footer_backcolor !important;
+      border:1px solid @footer_link_color !important;
+    }
+  }
+}
+
+//Colores del title fondo y texto
+.button-style-3 {
+  background-color: @main_hig_backcolor !important;
+  color: @main_hig_color !important;
+  border: 1px solid @main_hig_backcolor !important;
+  &:hover {
+    background-color: @main_hig_backcolor !important;
+    color: @main_hig_hover_color !important;
+    border: 1px solid @main_hig_backcolor !important;
+  }
+}
+
+//Colores del title -> al border
+.button-style-4 {
+  background-color: @main_hig_color !important;
+  color: @main_hig_backcolor !important;
+  border: 1px solid @main_hig_backcolor !important;
+  &:hover {
+    background-color: @main_hig_color !important;
+    color: @main_hig_hover_color !important;
+    border: 1px solid @main_hig_hover_color !important;
+  }
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// NUEVOS estilos de botones vinculados a los colores del tema
+////////////////////////////////////////////////////////////////
+
+.aps-btn-theme {
+  display: inline-block;
+  padding: 6px 30px;
+  cursor: pointer;
+  line-height: 120%;
+  width: auto;
+  text-align: center;
+  &:hover {
+    text-decoration: none;
+  }
+  &.as_input {
+    cursor: inherit;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  &.type-ghost:hover {
+    text-decoration: underline;
+  }
+}
+
+.aps-btn-theme,
+.aps-btn-theme:hover { transition: all 0.3s ease; }
+
+
+
+.btn-theme-heading.type-flat {
+  background-color: @main_heading_color !important;
+  color: @main_alt_backcolor !important;
+  border: 1px solid @main_heading_color !important;
+  &:hover {
+    background-color: @main_alt_backcolor !important;
+    color: @main_heading_color !important;
+  }
+}
+.btn-theme-heading.type-ghost {
+  background-color: transparent !important;
+  color: @main_heading_color !important;
+  border: 1px solid @main_heading_color !important;
+}
+
+
+
+.btn-theme-text.type-flat {
+  background-color: @main_color !important;
+  color: @main_alt_backcolor !important;
+  border: 1px solid @main_color !important;
+  &:hover {
+    background-color: @main_alt_backcolor !important;
+    color: @main_color !important;
+  }
+}
+.btn-theme-text.type-ghost {
+  background-color: transparent !important;
+  color: @main_color !important;
+  border: 1px solid @main_color !important;
+}
+
+
+
+.btn-theme-title.type-flat {
+  background-color: @main_hig_backcolor !important;
+  color: @main_hig_color !important;
+  border: 1px solid @main_hig_backcolor !important;
+  &:hover {
+    color: @main_hig_hover_color !important;
+  }
+}
+.btn-theme-title.type-ghost {
+  background-color: transparent !important;
+  color: @main_hig_color !important;
+  border: 1px solid @main_hig_color !important;
+}
+
+
+
+.btn-theme-link.type-flat {
+  background-color: @main_link_color !important;
+  color: @main_alt_backcolor !important;
+  border: 1px solid @main_link_color !important;
+  &:hover {
+    background-color: @main_alt_backcolor !important;
+    color: @main_link_color !important;
+  }
+}
+.btn-theme-link.type-ghost {
+  background-color: transparent !important;
+  color: @main_link_color !important;
+  border: 1px solid @main_link_color !important;
+}
+
+
+
+.btn-theme-hoverlink.type-flat {
+  background-color: @main_hoverlink_color !important;
+  color: @main_alt_backcolor !important;
+  border: 1px solid @main_hoverlink_color !important;
+  &:hover {
+    background-color: @main_alt_backcolor !important;
+    color: @main_hoverlink_color !important;
+  }
+}
+.btn-theme-hoverlink.type-ghost {
+  background-color: transparent !important;
+  color: @main_hoverlink_color !important;
+  border: 1px solid @main_hoverlink_color !important;
+}
+
+
+
+
+
+//Menu header
+
+#menu-header {
+  .head-top {
+    color: @header_top_color;
+    background-color: @header_top_backcolor;
+    a { color: @header_top_link_color; }
+    a:hover, a:focus { color: @header_top_hoverlink_color; }
+    border-color: @header_top_division_color;
+    background-image: @header_top_pattern;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+    li { border-color: @header_top_division_color; }
+    .sf-menu {
+      background-color: transparent;
+      li,a { color: @header_top_color;
+        border-color: @header_top_division_color; }
+      >li { background-color: transparent; }
+      >li li { background-color: @header_top_backcolor; }
+      //Simbolo dropdown
+      a:before, a:after { border-color:@header_top_color; }
+      a:hover:before, a:hover:after { border-color:@header_top_menu_hover_color; }
+      a:hover, a:focus { color: @header_top_menu_hover_color; }
+      .current-menu-ancestor.current-menu-item>a { color: @header_top_menu_hover_color; }
+      .item_is_megamenu .submenu_megamenu { background-color: @header_top_backcolor; border-color: @header_top_division_color; }
+      .submenu_megamenu .megamenu_column { border-color: @header_top_division_color; }
+      .submenu_megamenu .megamenu_newrow { border-color: @header_top_division_color; }
+    }
+  }
+  .head-center,
+  .head-bottom {
+    color: @header_bottom_color;
+    background-color: @header_bottom_backcolor;
+    a { color: @header_bottom_link_color; }
+    a:hover, a:focus { color: @header_bottom_hoverlink_color; }
+    border-color: @header_bottom_division_color;
+    background-image: @header_bottom_pattern;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+    border-top-color: @header_bottom_border_color;
+    border-bottom-color: @header_bottom_border_color;
+    li { border-color: @header_bottom_division_color; }
+    .sf-menu {
+      background-color: transparent;
+      li,a { color: @header_bottom_color;
+        border-color: @header_bottom_division_color; }
+      >li { background-color: transparent; }
+      >li li { background-color: @header_bottom_backcolor; }
+      //Simbolo dropdown
+      a:before, a:after { border-color:@header_bottom_color; }
+      a:hover:before, a:hover:after { border-color:@header_bottom_menu_hover_color; }
+      a:hover, a:focus { color: @header_bottom_menu_hover_color; }
+      .current-menu-ancestor.current-menu-item>a { color: @header_bottom_menu_hover_color; }
+      .item_is_megamenu .submenu_megamenu { background-color: @header_bottom_backcolor; border-color: @header_bottom_division_color; }
+      .submenu_megamenu .megamenu_column { border-color: @header_bottom_division_color; }
+      .submenu_megamenu .megamenu_newrow { border-color: @header_bottom_division_color; }
+    }
+  }
+}
+
+
+
+.display-extend-yes {
+  #menu-header {
+    background-color: transparent;
+    background-image: none;
+
+    .top-wrapper {
+      background-color: @header_top_backcolor;
+      background-image: @header_top_pattern;
+      background-attachment: scroll;
+      background-position: 0% 0%;
+      background-repeat: repeat repeat;
+    }
+    .center-wrapper,
+    .bottom-wrapper {
+      background-color: @header_bottom_backcolor;
+      background-image: @header_bottom_pattern;
+      background-attachment: scroll;
+      background-position: 0% 0%;
+      background-repeat: repeat repeat;
+    }
+
+    .center-wrapper {
+      border-top: 1px solid @header_bottom_border_color;
+      border-bottom: 1px solid @header_bottom_border_color;
+      .head-center {
+        border-top: none;
+        border-bottom: none;
+      }
+    }
+
+    .bottom-wrapper {
+      border-bottom: 1px solid @header_bottom_border_color;
+      .head-bottom {
+        border-bottom: none;
+      }
+    }
+
+  }
+}
+
+//Al dejar fija la cabecera se extiende a todo el ancho
+.header-fixed #menu-header {
+  .center-wrapper {
+    background-color: @header_bottom_backcolor;
+    background-image: @header_bottom_pattern;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px 0px;
+
+    border-bottom: 1px solid @header_bottom_border_color;
+    .head-center { border-top:none; border-bottom: none; }
+  }
+
+  .bottom-wrapper {
+    border-bottom: none;
+  }
+}
+
+
+
+#menu-mobile-btn {
+  background-color: @header_bottom_backcolor;
+  &:before, &:after { border-color: @header_bottom_color; }
+}
+
+// MENU MOBILE COLLAPSE
+//Desaparece todo lo que no sea menu
+/* Lo paso a variable por lo que solo puede ponerse en CSS una sola vez, no es como los colores que se sobreescriben
+@media (max-width: @menu_collapse_width) {
+  //MEnus ocultos
+  #menu-header .container {
+    >.head-top,
+    >.head-center,
+    >.head-bottom  {
+      .nav-menu-wrap { display: none; }
+    }
+  }
+  #menu-mobile-btn { display: block; }
+}
+*/
+
+// Antiguo
+/*
+#menu-mobile {
+    background-color: @header_bottom_backcolor;
+    #menu-mobile-close {
+        background-color: @header_bottom_backcolor;
+        &:before,
+        &:after {
+            background-color: @header_bottom_color;
+        }
+    }
+    .wrap {
+        background-color: @header_bottom_backcolor;
+        //margin-left: 1000px;
+        color: @header_bottom_color;
+        //border: 1px solid @header_bottom_border_color;
+        .head-mob { border-color: @header_bottom_border_color; }
+        .level, .level-sub, .level-sub-sub {
+            color: @header_bottom_color;
+            background-color: transparent !important;
+            //border: 1px solid @header_bottom_division_color;
+            &:hover { color: @header_bottom_menu_hover_color;}
+        }
+    }
+}
+
+
+#menu-mobile-overlay.open { background-color: @header_bottom_color; opacity: 0.8; }
+*/
+
+//Nuevo
+#menu-mobile-list {
+  background-color: transparent;
+  .wrap{ background-color:@header_bottom_backcolor; }
+  a.btn-menu {
+    color: @header_bottom_color;
+    &:hover { color: @header_bottom_menu_hover_color; text-decoration: none; }
+  }
+  .head-mob { border-bottom: 1px solid @header_bottom_division_color; }
+  .head-bob:last-child { border-bottom: 0px; }
+}
+
+
+//En el menu mobile ajustar colores tambien para el megamenu
+#menu-mobile-list {
+  .item_is_megamenu .submenu_megamenu {
+    background-color: @header_bottom_backcolor;
+    border-color: @header_bottom_division_color;
+  }
+  .submenu_megamenu .megamenu_column {
+    border-color: @header_bottom_division_color;
+  }
+  .submenu_megamenu .megamenu_newrow {
+    border-color: @header_bottom_division_color;
+  }
+  .wrap .item_is_not_megamenu >a { border-color:@header_bottom_division_color; color:@header_bottom_color;}
+  .wrap .item_is_megamenu >a { border-color:@header_bottom_division_color; color:@header_bottom_color;}
+  .megamenu_column .column-title { border-color: @header_bottom_division_color; }
+}
+
+
+
+
+
+#left-sidebar {
+  background-color: @left_backcolor;
+  color: @left_color;
+  border-right: 1px solid @left_border_color_line;
+  .border-color{ border-color: @left_border_color; }
+  h1,h2,h3,h4,h5,h6 { color: @left_heading_color; }
+  a { color: @left_link_color;
+    &:hover { color: @left_hoverlink_color; }
+  }
+  background-image: @left_pattern;
+  background-attachment: @left_pattern_scroll;
+  background-position: 0% 0%;
+  background-repeat: repeat repeat;
+  .widget {
+    background-color: @left_widget_backcolor;
+    margin-bottom: @left_widget_margin;
+    border-bottom: 1px solid @left_border_color;
+    &:last-child { border-bottom: none; }
+  }
+}
+
+#right-sidebar {
+  background-color: @right_backcolor;
+  color: @right_color;
+  border-left: 1px solid @right_border_color_line;
+  .border-color{ border-color: @right_border_color; }
+  h1,h2,h3,h4,h5,h6 { color: @right_heading_color; }
+  a { color: @right_link_color;
+    &:hover { color: @right_hoverlink_color; }
+  }
+  background-image: @right_pattern;
+  background-attachment: @right_pattern_scroll;
+  background-position: 0% 0%;
+  background-repeat: repeat repeat;
+  .widget {
+    background-color: @right_widget_backcolor;
+    margin-bottom: @right_widget_margin;
+    border-bottom: 1px solid @right_border_color;
+    &:last-child { border-bottom: none; }
+  }
+}
+
+
+#main-content {
+  //background-color: transparent; //para tipo pinterest
+  background-color: @main_backcolor;
+  color: @main_color;
+  .border-color{ border-color: @main_border_color; }
+  h1,h2,h3,h4,h5,h6 { color: @main_heading_color; }
+  a { color: @main_link_color;
+    &:hover { color: @main_hoverlink_color; }
+  }
+  background-image: @main_pattern;
+  background-attachment: @main_pattern_scroll;
+  background-position: 0% 0%;
+  background-repeat: repeat repeat;
+
+  .post { background-color: @main_alt_backcolor; }
+}
+
+#footer .container{
+  background-color: @footer_backcolor;
+  color: @footer_color;
+  border-top: 1px solid @footer_border_color_line;
+  .border-color{ border-color: @footer_border_color; }
+  h1,h2,h3,h4,h5,h6 { color: @footer_heading_color; }
+  a { color: @footer_link_color;
+    &:hover { color: @footer_hoverlink_color; }
+  }
+  background-image: @footer_pattern;
+  background-attachment: @footer_pattern_scroll;
+  background-position: 0% 0%;
+  background-repeat: repeat repeat;
+  .widget { border-bottom: 1px solid @footer_border_color; }
+  .widget:last-child { border-bottom: none; }
+}
+
+#socket .container {
+  color: @socket_color;
+  background-color: @socket_backcolor;
+  a { color: @socket_link_color; }
+  a:hover, a:focus { color: @socket_hoverlink_color; }
+  border-color: @socket_division_color;
+  background-image: @socket_pattern;
+  background-attachment: @socket_pattern_scroll;
+  background-position: 0% 0%;
+  background-repeat: repeat repeat;
+  border-top: 1px solid @socket_border_color;
+  li { border-color: @socket_division_color; }
+  .sf-menu {
+    background-color: transparent;
+    li,a { color: darken(@socket_color,20%);
+      border-color: @socket_division_color; }
+    >li { background-color: transparent; }
+    >li li { background-color: @socket_backcolor; }
+    //Simbolo dropdown
+    a:before, a:after { color: darken(@socket_color,20%);
+      border-color:@socket_color; }
+    a:hover, a:focus { color: @socket_color; }
+  }
+}
+
+//ampliar hasta los bordes los colores de las zonas
+.display-extend-yes{
+  #footer {
+    background-color: @footer_backcolor;
+    border-top: 1px solid @footer_border_color_line;
+    .container { border-top:none; background-color: transparent; background-image: none; }
+    background-image: @footer_pattern;
+    background-attachment: @footer_pattern_scroll;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+  }
+  #socket {
+    background-color: @socket_backcolor;
+    border-top: 1px solid @socket_border_color;
+    .container { border-top:none; background-color: transparent; background-image: none; }
+    background-image: @socket_pattern;
+    background-attachment: @socket_pattern_scroll;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+  }
+}
+
+
+
+
+// Estos son ajustes especificos para el contenido
+#main-content .entry-title a {
+  color: @main_heading_color;
+}
+#main-content .entry-title a:hover {
+  color: @main_hoverlink_color;
+}
+
+
+//============================================
+// LISTA DE POSTS masonry isotope
+//============================================
+
+.isotope {
+
+  //En grid el borde exterior no vale, se usa padding con border interior
+  &.grid {
+    .post {
+      .post-item-wrap { border-color: @main_window_border_color; }
+    }
+  }
+}
+
+
+//============================================
+// ELEMENTOS Article
+//============================================
+
+//-------------------------------
+/* article normal */
+//-------------------------------
+#main-content article.post {
+  background-color: @main_alt_backcolor;
+  border-color: @main_window_border_color;
+}
+
+.post_more {
+  background-color: @main_hig_backcolor;
+  color: @main_hig_color;
+
+  &:before{
+    border-color: @main_hig_color;
+  }
+  &:after{
+    border-color: @main_hig_color;
+  }
+}
+
+
+//-------------------------------
+/* date */
+//-------------------------------
+.post_date {
+  .date,.month,.year { color:@main_hig_color !important;}
+  .date_holder {
+    background-color: @main_hig_backcolor;
+    color: @main_hig_color;
+  }
+  //Icono post format
+  &:after {
+    color: @main_alt_color !important;
+  }
+}
+
+
+
+//-------------------------------
+// meta
+//-------------------------------
+.post_meta {
+  width: 100%;
+  .meta_holder {
+    font-size: @main_meta_font_size;
+    color: @main_color;
+    a { color: @main_link_color; font-size: @main_meta_font_size;}
+  }
+}
+.project-terms-small , .project-terms-small a {
+  font-size: @main_meta_font_size;
+}
+
+
+//-------------------------------
+// title
+//-------------------------------
+.post_title {
+  background-color:@main_hig_backcolor;
+  color: @main_hig_color !important;
+  a {
+    color: @main_hig_color !important;
+    &:hover, &:focus {
+      color: @main_hig_hover_color !important;
+    }
+  }
+}
+
+
+
+
+
+//-------------------------------
+// content
+//-------------------------------
+.post_content {
+  color: @main_color;
+  //font-size: @font_size_body;
+  //line-height: 120%;
+  .read-more { font-size: @main_meta_font_size; }
+}
+
+
+//-------------------------------
+// page links
+//-------------------------------
+
+.page_links {
+  .page_link_title {
+    border-color: @main_color;
+  }
+}
+
+
+//-------------------------------
+// social
+//-------------------------------
+.post_social {
+  a {
+    i {
+      background-color: @main_link_back_color;
+      color: @main_link_color;
+    }
+    &:hover i { color: @main_hoverlink_color;}
+  }
+}
+
+
+
+
+
+
+
+
+
+//Formato general del post-grid
+.post-grid {
+
+  .item-image-curtain {
+    background-color: fade(@main_hig_color,50%);
+  }
+
+  .item-image-curtain-icons {
+    a {
+      background-color: @main_hig_backcolor;
+      color: @main_hig_color !important;
+      &.fa:before {
+        color: @main_hig_color !important;
+      }
+
+      &:hover {
+        background-color: @main_hig_color;
+        color: @main_hig_backcolor !important;
+        &.fa:before,
+        &:before, &:after {
+          background-color: @main_hig_color;
+          color: @main_hig_backcolor !important;
+          border-color: @main_hig_backcolor !important;
+        }
+      }
+
+    }
+  }
+
+  .item-image-curtain-content {
+    * {
+      color: @main_hig_backcolor !important;
+    }
+    .post_meta .meta_holder {
+      * { font-size: @main_meta_font_size; }
+    }
+  }
+}
+
+//Con grid el articulo aprovecha el padding parta crear la separacion
+//por lo que tengo que anular el fondo del article
+.isotope.grid article.post {
+  .post-item-wrap {
+    background-color: @main_alt_backcolor;
+  }
+}
+
+
+
+//-------------------------------
+// isotope filters
+//-------------------------------
+
+//Sustituidos por button-style-1
+/*
+.isotope-filters {
+  li {
+    a {
+      background-color: @main_hig_backcolor;
+      color: @main_hig_color !important;
+      &:hover {
+        background-color: @main_hig_color;
+        color: @main_hig_backcolor !important;
+      }
+      &.active {
+        background-color: @main_hig_color;
+        color: @main_hig_backcolor !important;
+      }
+    }
+  }
+}
+*/
+
+//============================================
+// PAGINATION blog, single
+//============================================
+
+/*
+.pagination-numbers {
+  li a, li span {
+    background-color: @main_hig_backcolor;
+    color: @main_hig_color !important;
+  }
+  li a:hover {
+    color: @main_hig_backcolor !important;
+    background-color: @main_hig_color;
+  }
+  li .nav-current {
+    color: @main_hig_backcolor !important;
+    background-color: @main_hig_color ;
+  }
+}
+*/
+.pagination-text {
+  font-size: 12px;
+  //color: @main_color;
+}
+
+.pagination-posts {
+  //font-size: @font_size_body;
+}
+
+//Centrar ?
+/*
+.pagination-ajax {
+  a {
+    //font-size: 1.2rem;
+    //font-weight: 100;
+    //height: 36px;
+    //line-height: 36px;
+    //background-color: @main_hig_backcolor;
+    //color: @main_hig_color !important;
+    &:hover {
+      //background-color: @main_hig_color;
+      //color: @main_hig_backcolor !important;
+    }
+  }
+}
+*/
+
+//============================================
+// SINGLE
+//============================================
+
+#main-content .post-box{
+  background-color: @main_alt_backcolor;
+  border: 1px solid @main_window_border_color;
+  &.other-border { border-color: @main_border_color; }
+}
+
+
+//-------------------------------
+// single - about author
+//-------------------------------
+
+.about-author {
+  .title h3 {
+    background-color:@main_hig_backcolor;
+    color: @main_hig_color !important;
+    a {
+      color: @main_hig_color !important;
+    }
+  }
+  .about-author-container {
+    color: @main_color;
+    //font-size: @font_size_body;
+    //line-height: 20px;
+  }
+}
+
+
+
+//-------------------------------
+// single - related posts
+//-------------------------------
+
+.related-posts {
+
+  .title h3 {
+    background-color:@main_hig_backcolor;
+    color: @main_hig_color !important;
+    //font-size: 22px;
+  }
+  .related-posts-container {
+    color: @main_color;
+    //font-size: @font_size_body;
+  }
+}
+
+
+//-------------------------------
+// single - comments
+//-------------------------------
+
+.post-comments {
+  .title h3 {
+    background-color:@main_hig_backcolor;
+    color: @main_hig_color !important;
+    //font-size: 22px;
+  }
+  .post-comments-container {
+    color: @main_color;
+    //font-size: @font_size_body;
+    line-height: 20px;
+    font-weight: 100;
+  }
+}
+
+/*	COMMENTS
+----------------------------------------------- */
+
+#respond {
+
+  input[type="submit"] {
+    color: @main_alt_backcolor;
+    background-color: @main_link_color;
+    border: 1px solid @main_link_color;
+    &:hover {
+      color: @main_link_color;
+      background-color: @main_alt_backcolor;
+    }
+  }
+
+}
+
+
+//============================================
+// FLEXSLIDER
+//============================================
+
+body .flex-direction-nav a  {
+  background-color:@main_hig_backcolor;
+  color: @main_hig_color !important;
+}
+
+//============================================
+// ROYALSLIDER
+//============================================
+
+.sliderContainer.fullWidth {
+  width: 100% !important;
+  display: block;
+  margin: 0 auto;
+}
+
+
+//Fondo transparente para todo
+/* Background */
+body {
+  .rsMinW,
+  .rsMinW .rsOverflow,
+  .rsMinW .rsSlide,
+  .rsMinW .rsVideoFrameHolder,
+  .rsMinW .rsThumbs {
+    background: transparent;
+  }
+}
+
+.royalSlider
+{
+  .infoBlock {
+    background-color: fade(@main_hig_backcolor, 80%);
+
+    .slider_title {
+      font-size: 18px;
+      a {
+        color: @main_hig_color !important;
+      }
+    }
+
+    .slider_content {
+      color: @main_hig_color !important;
+    }
+  }
+}
+
+
+
+
+//============================================
+// EVERSLIDER - related posts
+//============================================
+
+.aps-everslider {
+
+  .image-caption {
+
+    span {
+      background-color: @main_hig_backcolor;
+      color: @main_hig_color;
+      &:hover {
+        color: @main_hig_backcolor;
+        background-color: @main_hig_color;
+      }
+    }
+  }
+
+  .es-navigation {
+    .es-prev, .es-next {
+      background-color: @main_hig_backcolor;
+      color: @main_hig_color;
+      opacity: 0.7;
+    }
+
+    .es-prev:before,
+    .es-next:before {
+      color: @main_hig_color;
+      font-size: 24px;
+    }
+  }
+
+
+  &.featured-slider {
+    .featured-pic > a {
+      line-height: 50px;
+      font-size: 30px;
+      background-color: @main_hig_backcolor;
+      .fa {
+        color: @main_hig_color;
+      }
+    }
+  }
+
+  .featured-title {
+    background-color: @main_alt_backcolor;
+    color: @main_alt_color;
+    a {
+      color: @main_link_color !important;
+      &:hover { color: @main_hoverlink_color !important; }
+    }
+    span { font-size: 12px; font-style: normal; line-height: 1.2em; }
+  }
+
+}
+
+
+//============================================
+// PROJECT custom post - single-aps_project.php
+//============================================
+
+
+
+//============================================
+// GOOGLE MAP
+//============================================
+@color_marker : @main_hig_backcolor;
+
+
+.icon-map-circle-40 {
+  border-color: @color_marker;
+}
+
+.icon-map-circle-70 {
+  border-color: @color_marker;
+}
+
+.icon-map-square-70 {
+  border-color: @color_marker;
+}
+
+.icon-map-square-40 {
+  border-color: @color_marker;
+}
+
+
+// MAP PROJECTS
+
+.map_popup {
+  //background-color: fade( @main_alt_backcolor, 80%);
+  background-color: @main_hig_backcolor;
+  color: @main_hig_color !important;
+
+  .popup-close {
+    color: @main_hig_color !important;
+    border-left:1px solid @main_hig_color;
+  }
+
+  .popup-info {
+    .popup-text-title {
+      font-size: 18px;
+      //background-color: fade( @main_hig_backcolor, 70%);
+      color: @main_hig_color !important;
+    }
+    .popup-text-desc {
+      font-size: 12px;
+    }
+  }
+}
+
+
+/*	WIDGETS MENUS y resto
+----------------------------------------------- */
+
+//menus
+#left-sidebar {
+  .widget-menu-type-custom-1 a { border-top: 1px solid @left_border_color_menu; }
+  .widget-menu-type-custom-2 li { border-top: 1px solid @left_border_color_menu; }
+  .widget .wd-post-item-wrap { border-color: @left_border_color_menu; }
+  .widget ul { li { border-color:@left_border_color_menu } }
+  .widget-tab.active { background-color: @left_link_color; color: @left_backcolor; }
+  .widget_tag_cloud a { border-color: @left_link_color; }
+}
+
+#right-sidebar {
+  .widget-menu-type-custom-1 a { border-top: 1px solid @right_border_color_menu; }
+  .widget-menu-type-custom-2 li { border-top: 1px solid @right_border_color_menu; }
+  .widget .wd-post-item-wrap { border-color: @right_border_color_menu; }
+  .widget ul { li { border-color:@right_border_color_menu } }
+  .widget-tab.active { background-color: @right_link_color; color: @right_backcolor; }
+  .widget_tag_cloud a { border-color: @right_link_color; }
+}
+#footer {
+  .widget-menu-type-custom-1 a { border-top: 1px solid @footer_border_color_menu; }
+  .widget-menu-type-custom-2 li { border-top: 1px solid @footer_border_color_menu; }
+  .widget .wd-post-item-wrap { border-color: @footer_border_color_menu; }
+  .widget ul { li { border-color:@footer_border_color_menu } }
+  .widget-tab.active { background-color: @footer_link_color; color: @footer_backcolor; }
+  .widget_tag_cloud a { border-color: @footer_link_color; }
+}
+
+
+
+
+//============================================
+// DEL PAGE BUILDER - shortcodes
+//============================================
+
+/*	ACCORDION
+----------------------------------------------- */
+
+#main-content {
+  .aps-panel-body {
+    //background-color: @main_alt_backcolor;
+  }
+  .aps-panel, .aps-panel * {
+    //border-color: @main_border_color;
+  }
+}
+
+//Anular margenes
+body .aps-panel { margin:0px; }
+
+#main-content {
+  .aps-panel { border-bottom: 1px solid @main_border_color; }
+}
+
+
+/*	TABS
+----------------------------------------------- */
+
+/*
+#main-content {
+  .aps-nav-tabs, .aps-nav-tabs > li,
+  .aps-tab-content, .aps-tab-content * {
+    border-color: @main_border_color;
+  }
+
+  .aps-nav-tabs > li.active {
+    background-color: @main_alt_backcolor;
+    a {
+      background-color: @main_alt_backcolor !important;
+    }
+    border-bottom: 1px solid @main_alt_backcolor;
+  }
+  .aps-tab-content .aps-tab-pane {
+    background-color: @main_alt_backcolor;
+  }
+}
+*/
+
+/*	PROTECTED FORM
+----------------------------------------------- */
+
+#main-content {
+
+  .aps-protect form {
+    border-color: @main_window_border_color;
+    max-width: 320px;
+
+    input[type="submit"] {
+      background-color: transparent;
+      background-color: @main_hig_backcolor;
+      color: @main_hig_color;
+      &:hover {
+        color: @main_hig_backcolor;
+        background-color: @main_hig_color;
+      }
+    }
+  }
+}
+
+
+
+/*	FLUID COLS
+----------------------------------------------- */
+
+#main-content {
+  .aps-fluid-col {
+    -webkit-column-rule: 1px solid @main_color ;
+    -moz-column-rule: 1px solid @main_color ;
+    column-rule: 1px solid @main_color ;
+  }
+}
+
+
+/*	CONTACT FORM 7
+----------------------------------------------- */
+
+.wpcf7-form {
+  input { width: 100%; }
+  textarea { width: 100%; max-width:100%; }
+  input.wpcf7-submit {
+    width: auto;
+    //Colores como button-style-1, ver arriba
+  }
+
+  div.wpcf7-validation-errors { border:0px;}
+  .wpcf7-mail-sent-ok { border:0px;}
+  .wpcf7-not-valid-tip { color: inherit; }
+
+  input, textarea {
+    background-color: transparent;
+    border-color: @main_border_color;
+    color: @main_color;
+  }
+
+}
+
+
+/*	INFOBOX
+----------------------------------------------- */
+
+.aps-infobox {
+  border-color: @main_border_color !important;
+}
+
+
+/*	INFOBOX
+----------------------------------------------- */
+
+.alert.alert-global { border-color: @main_border_color; }

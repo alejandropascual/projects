@@ -1,0 +1,2396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECTS\n"
+"POT-Creation-Date: 2014-08-06 18:48+0100\n"
+"PO-Revision-Date: 2014-08-06 18:48+0100\n"
+"Last-Translator: Alejandro <elapsl@elapsl.com>\n"
+"Language-Team: Alejandro <elapsl@elapsl.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: comments.php:16
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:32
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:32
+msgid "Comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:75
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:77
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:79
+msgid "Website"
+msgstr ""
+
+#: comments.php:87 comments.php:88
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:89
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr ""
+
+#: comments.php:90
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:90
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:90
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:93
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:95
+msgid "Post Comment"
+msgstr ""
+
+#: content-none.php:18
+msgid "Oops"
+msgstr ""
+
+#: content-none.php:19
+msgid "We can't find what you've requested!"
+msgstr ""
+
+#: content-none.php:22
+msgid "Try searching using the form below:"
+msgstr ""
+
+#: content-none.php:37
+msgid "Or use these useful links:"
+msgstr ""
+
+#: includes/php/activate-plugins.php:129
+#: includes/php/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/php/activate-plugins.php:130
+#: includes/php/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/php/activate-plugins.php:131
+#: includes/php/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/php/activate-plugins.php:132
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/php/activate-plugins.php:133
+#: includes/php/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:134
+#: includes/php/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:135
+#: includes/php/class-tgm-plugin-activation.php:202
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:136
+#: includes/php/class-tgm-plugin-activation.php:203
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:137
+#: includes/php/class-tgm-plugin-activation.php:204
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:138
+#: includes/php/class-tgm-plugin-activation.php:205
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:139
+#: includes/php/class-tgm-plugin-activation.php:206
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:140
+#: includes/php/class-tgm-plugin-activation.php:207
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:141
+#: includes/php/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:142
+#: includes/php/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/activate-plugins.php:143
+#: includes/php/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/php/activate-plugins.php:144
+#: includes/php/class-tgm-plugin-activation.php:212
+#: includes/php/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/php/activate-plugins.php:145
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/php/ajax-options.php:41
+msgid "OK. OPTIONS HAVE BEEN RESTORED."
+msgstr ""
+
+#: includes/php/ajax-options.php:43
+msgid "ERROR. Text options is not correct."
+msgstr ""
+
+#: includes/php/class-htmlhelper.php:454 includes/php/class-htmlhelper.php:468
+#: includes/php/class-htmlhelper.php:1052
+msgid "Filter "
+msgstr ""
+
+#: includes/php/class-htmlhelper.php:790
+msgid "In case of shortcode paste it here"
+msgstr ""
+
+#: includes/php/class-htmlhelper.php:1053
+msgid "Select multiple or leave it blank for all."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/php/class-mega-menu.php:110
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/php/class-mega-menu.php:114
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:127
+msgid "sub item"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:130
+msgid "COLUMN"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:131
+msgid "MEGA-MENU"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:144
+msgid "Move up"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:157
+msgid "Move down"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:159 includes/php/class-mega-menu.php:161
+msgid "Edit Menu Item"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:170
+msgid "URL"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:177
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:177
+msgid "Column name"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:183
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:188
+msgid "The Navigation Label is the Title of this column."
+msgstr ""
+
+#: includes/php/class-mega-menu.php:190
+msgid "If you dont want a title write a single dash \"-\"."
+msgstr ""
+
+#: includes/php/class-mega-menu.php:196
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:201
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:207
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:213 includes/php/settings-data.php:2363
+msgid "Description"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:215
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/php/class-mega-menu.php:226
+msgid "MEGA-MENU: Use as Mega Menu "
+msgstr ""
+
+#: includes/php/class-mega-menu.php:242
+msgid ""
+"If you do not want to appear the Column name just write a single dash \"-\""
+msgstr ""
+
+#: includes/php/class-mega-menu.php:247
+msgid "MEGA-MENU: Start new row of columns from this item "
+msgstr ""
+
+#: includes/php/class-mega-menu.php:265
+msgid ""
+"MEGA-MENU: Use text block instead of link<br><small>(Dont remove the "
+"Navigation Label or Wordpress will delete this item.)</small>"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:282
+msgid "MEGA-MENU: Text Block "
+msgstr ""
+
+#: includes/php/class-mega-menu.php:302
+msgid "Move"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:303
+msgid "Up one"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:304
+msgid "Down one"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:307
+msgid "To the top"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:315
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:328
+msgid "Remove"
+msgstr ""
+
+#: includes/php/class-mega-menu.php:329
+msgid "Cancel"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:213
+#: includes/php/class-tgm-plugin-activation.php:1638
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/php/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:544
+#: includes/php/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1290
+#: includes/php/class-tgm-plugin-activation.php:1398
+#: includes/php/settings-data.php:20 includes/php/settings-data.php:21
+msgid "Install"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1312
+#: includes/php/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2065
+#: includes/php/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2065
+#: includes/php/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/php/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/php/page-metabox.php:9 includes/php/settings-data.php:2354
+msgid "Options"
+msgstr ""
+
+#: includes/php/page-metabox.php:19
+msgid "Show page title"
+msgstr ""
+
+#: includes/php/page-metabox.php:28
+msgid "With bordered box"
+msgstr ""
+
+#: includes/php/page-metabox.php:37
+msgid "Show featured image"
+msgstr ""
+
+#: includes/php/page-metabox.php:38
+msgid ""
+"ex: You can hide featured image when display the page but show it in for "
+"search results page "
+msgstr ""
+
+#: includes/php/page-metabox.php:46
+msgid "Use Preloader"
+msgstr ""
+
+#: includes/php/page-metabox.php:47
+msgid "This will load all the images before the page is displayed"
+msgstr ""
+
+#: includes/php/settings-data.php:31
+msgid "SEO"
+msgstr ""
+
+#: includes/php/settings-data.php:38
+msgid "Mobile options"
+msgstr ""
+
+#: includes/php/settings-data.php:45
+msgid "Brand options"
+msgstr ""
+
+#: includes/php/settings-data.php:52
+msgid "Style theme"
+msgstr ""
+
+#: includes/php/settings-data.php:60
+msgid "Extra code"
+msgstr ""
+
+#: includes/php/settings-data.php:72
+msgid "STYLE MAPS"
+msgstr ""
+
+#: includes/php/settings-data.php:78
+msgid "CONTACT DATA"
+msgstr ""
+
+#: includes/php/settings-data.php:84
+msgid "Social links"
+msgstr ""
+
+#: includes/php/settings-data.php:90
+msgid "Share post"
+msgstr ""
+
+#: includes/php/settings-data.php:97
+msgid "Blog options"
+msgstr ""
+
+#: includes/php/settings-data.php:103
+msgid "Blog archive"
+msgstr ""
+
+#: includes/php/settings-data.php:109
+msgid "Blog single post"
+msgstr ""
+
+#: includes/php/settings-data.php:115
+msgid "Pages"
+msgstr ""
+
+#: includes/php/settings-data.php:121
+msgid "Projects list"
+msgstr ""
+
+#: includes/php/settings-data.php:127
+msgid "Projects archive"
+msgstr ""
+
+#: includes/php/settings-data.php:133
+msgid "Project post"
+msgstr ""
+
+#: includes/php/settings-data.php:139 includes/php/settings-data.php:256
+msgid "Backup options"
+msgstr ""
+
+#: includes/php/settings-data.php:194
+msgid "Section contact data"
+msgstr ""
+
+#: includes/php/settings-data.php:195
+msgid "Description section contact data"
+msgstr ""
+
+#: includes/php/settings-data.php:201
+msgid "Place the links. To remove a link leave it blank."
+msgstr ""
+
+#: includes/php/settings-data.php:207
+msgid "Mark the share buttons you want in blog posts"
+msgstr ""
+
+#: includes/php/settings-data.php:213
+msgid "Default layout for the blog page"
+msgstr ""
+
+#: includes/php/settings-data.php:219
+msgid "Default layout for the blog archive page (category, tag, author, date)"
+msgstr ""
+
+#: includes/php/settings-data.php:225
+msgid "Options for the single post page"
+msgstr ""
+
+#: includes/php/settings-data.php:231
+msgid "Options for pages"
+msgstr ""
+
+#: includes/php/settings-data.php:237
+msgid "Options for the <a target=\"_black\" href=\""
+msgstr ""
+
+#: includes/php/settings-data.php:243
+msgid ""
+"Options for the Projects-Taxonomy Archive Page <br>( Archive of projects by "
+"some Category, Skill or Tag)"
+msgstr ""
+
+#: includes/php/settings-data.php:249
+msgid "Options for single project page"
+msgstr ""
+
+#: includes/php/settings-data.php:284
+msgid "WEB EXAMPLE"
+msgstr ""
+
+#: includes/php/settings-data.php:285
+msgid ""
+"This will replace your current theme options, widgets and sliders.\n"
+"        <br>It will import posts, pages, projects, layouts and images.\n"
+"        <br>It is recommended to do it with a fresh install only once.\n"
+"        <br>Otherwise it ill duplicate content and linking between content "
+"could be broken.\n"
+"\n"
+"        "
+msgstr ""
+
+#: includes/php/settings-data.php:293
+msgid "IMPORT EXAMPLE CONTENT"
+msgstr ""
+
+#: includes/php/settings-data.php:294
+msgid ""
+"WARNING: Are you sure to import content? Be patient, it can take a few "
+"minutes to complete... it has to import all the images from the example. "
+"Update Settings->Permalinks after example has been imported."
+msgstr ""
+
+#: includes/php/settings-data.php:303
+msgid "Default theme-layout for SINGLE-PAGE-POST"
+msgstr ""
+
+#: includes/php/settings-data.php:311
+msgid "Default theme-layout for BLOG-PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:312
+msgid "Valid only with this option en Reading <a href=\""
+msgstr ""
+
+#: includes/php/settings-data.php:319
+msgid "Default theme-layout for ARCHIVE-PAGE (category,tag,author,date)"
+msgstr ""
+
+#: includes/php/settings-data.php:326
+msgid "Default theme-layout for PAGES"
+msgstr ""
+
+#: includes/php/settings-data.php:333
+msgid "Show comments in pages when active ?"
+msgstr ""
+
+#: includes/php/settings-data.php:340
+msgid "Layout for 404 PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:347
+msgid "Menu list for 404-Error page"
+msgstr ""
+
+#: includes/php/settings-data.php:354
+msgid "Layout forSEARCH PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:361
+msgid "Default theme-layout for SINGLE-PROJECT-PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:368
+msgid "Default theme-layout for LIST-PROJECT-PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:375
+msgid "Default theme-layout for TAXONOMY-PROJECT-PAGE"
+msgstr ""
+
+#: includes/php/settings-data.php:384
+msgid "FIXED HEADER"
+msgstr ""
+
+#: includes/php/settings-data.php:385
+msgid "The header will be fixed at the top of the page when scrolling window."
+msgstr ""
+
+#: includes/php/settings-data.php:393
+msgid "MENU BUTTON FOR WIDTH"
+msgstr ""
+
+#: includes/php/settings-data.php:394
+msgid ""
+"The menu can change to one button when the screen width is small to see all "
+"the menu.<br>You can define the width when this happens."
+msgstr ""
+
+#: includes/php/settings-data.php:413
+msgid "SIDEBARS RESPONSIVE FOR WIDTH"
+msgstr ""
+
+#: includes/php/settings-data.php:414
+msgid ""
+"The sidebars can change the position when the screen width is small.<br>You "
+"can define the width when this happens."
+msgstr ""
+
+#: includes/php/settings-data.php:433
+msgid "TYPE OF RESPONSIVE SIDEBARS"
+msgstr ""
+
+#: includes/php/settings-data.php:434
+msgid "Sidebars can change the position to up and down or to lateral sliding."
+msgstr ""
+
+#: includes/php/settings-data.php:464
+msgid "Tracking code (e.g. Google analytics)"
+msgstr ""
+
+#: includes/php/settings-data.php:472
+msgid "Add here your extra style CSS"
+msgstr ""
+
+#: includes/php/settings-data.php:482
+msgid "LOGO"
+msgstr ""
+
+#: includes/php/settings-data.php:484
+msgid "height 90px, width variable"
+msgstr ""
+
+#: includes/php/settings-data.php:491
+msgid "FAVICON"
+msgstr ""
+
+#: includes/php/settings-data.php:499
+msgid "Site title"
+msgstr ""
+
+#: includes/php/settings-data.php:500
+msgid "Site title and Tagline can be modified in <a href=\""
+msgstr ""
+
+#: includes/php/settings-data.php:510
+msgid "Maps style"
+msgstr ""
+
+#: includes/php/settings-data.php:511
+msgid "This style will be used for all maps in the web"
+msgstr ""
+
+#: includes/php/settings-data.php:544
+msgid "Color icons"
+msgstr ""
+
+#: includes/php/settings-data.php:551
+msgid "Project icon type"
+msgstr ""
+
+#: includes/php/settings-data.php:567
+msgid "Contact data - location"
+msgstr ""
+
+#: includes/php/settings-data.php:574
+msgid "Contact data - telephone"
+msgstr ""
+
+#: includes/php/settings-data.php:581
+msgid "Contact data - email"
+msgstr ""
+
+#: includes/php/settings-data.php:588
+msgid "Contact data - schedule"
+msgstr ""
+
+#: includes/php/settings-data.php:595
+msgid "Copyright text"
+msgstr ""
+
+#: includes/php/settings-data.php:606
+msgid "Social Links open in a new window ?"
+msgstr ""
+
+#: includes/php/settings-data.php:740
+msgid ""
+"<span class=\"admin-social-icon fa fa-facebook\"\"></span> <span class="
+"\"admin-social-text\">Facebook</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:747
+msgid ""
+"<span class=\"admin-social-icon fa fa-twitter\"\"></span> <span class="
+"\"admin-social-text\">Twitter</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:755
+msgid ""
+"<span class=\"admin-social-icon fa fa-reddit\"\"></span> <span class=\"admin-"
+"social-text\">Reddit</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:763
+msgid ""
+"<span class=\"admin-social-icon fa fa-linkedin\"\"></span> <span class="
+"\"admin-social-text\">Linkedin</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:770
+msgid ""
+"<span class=\"admin-social-icon fa fa-google-plus\"\"></span> <span class="
+"\"admin-social-text\">Google Plus</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:777
+msgid ""
+"<span class=\"admin-social-icon fa fa-tumblr\"\"></span> <span class=\"admin-"
+"social-text\">Tumblr</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:784
+msgid ""
+"<span class=\"admin-social-icon fa fa-pinterest\"\"></span> <span class="
+"\"admin-social-text\">Pinterest</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:791
+msgid ""
+"<span class=\"admin-social-icon fa fa-envelope\"\"></span> <span class="
+"\"admin-social-text\">Email</span>"
+msgstr ""
+
+#: includes/php/settings-data.php:798
+msgid "nofollow"
+msgstr ""
+
+#: includes/php/settings-data.php:799
+msgid "Add rel=\"nofollow\" attribute to social links"
+msgstr ""
+
+#: includes/php/settings-data.php:809
+msgid "Blog Page Title"
+msgstr ""
+
+#: includes/php/settings-data.php:816 includes/php/settings-data.php:981
+msgid "Blog Layout"
+msgstr ""
+
+#: includes/php/settings-data.php:830 includes/php/settings-data.php:994
+msgid "Blog List type"
+msgstr ""
+
+#: includes/php/settings-data.php:859 includes/php/settings-data.php:1023
+msgid "Blog Masonry Type"
+msgstr ""
+
+#: includes/php/settings-data.php:883 includes/php/settings-data.php:1047
+msgid "Blog Grid Type"
+msgstr ""
+
+#: includes/php/settings-data.php:903 includes/php/settings-data.php:1067
+msgid "Masonry Element Width"
+msgstr ""
+
+#: includes/php/settings-data.php:904 includes/php/settings-data.php:1068
+msgid "This is the width of the box for the post."
+msgstr ""
+
+#: includes/php/settings-data.php:921 includes/php/settings-data.php:1085
+msgid "Masonry Element margin"
+msgstr ""
+
+#: includes/php/settings-data.php:922 includes/php/settings-data.php:1086
+msgid "This is the separation between elements"
+msgstr ""
+
+#: includes/php/settings-data.php:943 includes/php/settings-data.php:1107
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/php/settings-data.php:959 includes/php/settings-data.php:1123
+msgid "Grid Element margin"
+msgstr ""
+
+#: includes/php/settings-data.php:960 includes/php/settings-data.php:1124
+msgid "This is the separation between grid elements"
+msgstr ""
+
+#: includes/php/settings-data.php:1148
+msgid "You can override here the elements you want to display in each post"
+msgstr ""
+
+#: includes/php/settings-data.php:1156 includes/php/settings-data.php:1315
+#: includes/php/settings-data.php:1442
+msgid "Display Featured Image"
+msgstr ""
+
+#: includes/php/settings-data.php:1171 includes/php/settings-data.php:1322
+#: includes/php/settings-data.php:1449
+msgid "Display Date"
+msgstr ""
+
+#: includes/php/settings-data.php:1179
+msgid "Date format"
+msgstr ""
+
+#: includes/php/settings-data.php:1183
+msgid "DAY month year"
+msgstr ""
+
+#: includes/php/settings-data.php:1184
+msgid "month year DAY"
+msgstr ""
+
+#: includes/php/settings-data.php:1185
+msgid "month DAY year"
+msgstr ""
+
+#: includes/php/settings-data.php:1186
+msgid "Wordpress Settings->Reading"
+msgstr ""
+
+#: includes/php/settings-data.php:1192 includes/php/settings-data.php:1330
+#: includes/php/settings-data.php:1456
+msgid "Display Title"
+msgstr ""
+
+#: includes/php/settings-data.php:1200 includes/php/settings-data.php:1338
+msgid "Display Meta"
+msgstr ""
+
+#: includes/php/settings-data.php:1208 includes/php/settings-data.php:1346
+msgid ""
+"<small>&nbsp;&nbsp;&nbsp;&nbsp;meta: Author</small><br><small style=\"font-"
+"size:10px;\">&nbsp;&nbsp;&nbsp;&nbsp;(when Display Meta = YES)</small>"
+msgstr ""
+
+#: includes/php/settings-data.php:1217 includes/php/settings-data.php:1355
+msgid ""
+"<small>&nbsp;&nbsp;&nbsp;&nbsp;meta: Categories</small><br><small style="
+"\"font-size:10px;\">&nbsp;&nbsp;&nbsp;&nbsp;(when Display Meta = YES)</small>"
+msgstr ""
+
+#: includes/php/settings-data.php:1226 includes/php/settings-data.php:1364
+msgid ""
+"<small>&nbsp;&nbsp;&nbsp;&nbsp;meta: Comments number</small><br><small style="
+"\"font-size:10px;\">&nbsp;&nbsp;&nbsp;&nbsp;(when Display Meta = YES)</small>"
+msgstr ""
+
+#: includes/php/settings-data.php:1235 includes/php/settings-data.php:1373
+msgid "Display Excerpt content"
+msgstr ""
+
+#: includes/php/settings-data.php:1243 includes/php/settings-data.php:1381
+#: includes/php/settings-data.php:1477
+msgid "Display Social buttons"
+msgstr ""
+
+#: includes/php/settings-data.php:1251 includes/php/settings-data.php:1389
+msgid "Display More button"
+msgstr ""
+
+#: includes/php/settings-data.php:1259 includes/php/settings-data.php:1397
+msgid "Display Border Post"
+msgstr ""
+
+#: includes/php/settings-data.php:1267 includes/php/settings-data.php:1405
+msgid "Read more link"
+msgstr ""
+
+#: includes/php/settings-data.php:1268 includes/php/settings-data.php:1406
+msgid "Display a read more link at the end of the excerpt text"
+msgstr ""
+
+#: includes/php/settings-data.php:1276
+msgid "Excerpt number of words"
+msgstr ""
+
+#: includes/php/settings-data.php:1277 includes/php/settings-data.php:1415
+msgid "Select the number of words for the excerpt text"
+msgstr ""
+
+#: includes/php/settings-data.php:1285 includes/php/settings-data.php:1423
+#: includes/php/settings-data.php:1868 includes/php/settings-data.php:2209
+msgid "Pagination type"
+msgstr ""
+
+#: includes/php/settings-data.php:1307
+msgid "You can override here the elements you want to display in each post."
+msgstr ""
+
+#: includes/php/settings-data.php:1414
+msgid "Grid text words"
+msgstr ""
+
+#: includes/php/settings-data.php:1463
+msgid "Display Categories"
+msgstr ""
+
+#: includes/php/settings-data.php:1470
+msgid "Display Tags"
+msgstr ""
+
+#: includes/php/settings-data.php:1484
+msgid "Display Border"
+msgstr ""
+
+#: includes/php/settings-data.php:1500
+msgid "Display About the author"
+msgstr ""
+
+#: includes/php/settings-data.php:1516
+msgid "Display Previous/Next post"
+msgstr ""
+
+#: includes/php/settings-data.php:1531
+msgid "Display Related posts"
+msgstr ""
+
+#: includes/php/settings-data.php:1538
+msgid "Filter related posts with"
+msgstr ""
+
+#: includes/php/settings-data.php:1539
+msgid "(posts that match some of the categories / tags selected in the post)"
+msgstr ""
+
+#: includes/php/settings-data.php:1552
+msgid "Type of carousel"
+msgstr ""
+
+#: includes/php/settings-data.php:1566
+msgid "Image size for carousel"
+msgstr ""
+
+#: includes/php/settings-data.php:1582
+msgid "Number of related posts"
+msgstr ""
+
+#: includes/php/settings-data.php:1592
+msgid "Order related posts By"
+msgstr ""
+
+#: includes/php/settings-data.php:1598 includes/php/settings-data.php:1912
+#: includes/php/settings-data.php:2253
+msgid "Title"
+msgstr ""
+
+#: includes/php/settings-data.php:1609 includes/php/settings-data.php:1922
+#: includes/php/settings-data.php:2263
+msgid "Order of posts"
+msgstr ""
+
+#: includes/php/settings-data.php:1615 includes/php/settings-data.php:1929
+#: includes/php/settings-data.php:2270
+msgid "Descending"
+msgstr ""
+
+#: includes/php/settings-data.php:1630
+msgid "Display Comments"
+msgstr ""
+
+#: includes/php/settings-data.php:1645 includes/php/settings-data.php:1997
+msgid "Page title"
+msgstr ""
+
+#: includes/php/settings-data.php:1662 includes/php/settings-data.php:2014
+msgid "Type of gallery"
+msgstr ""
+
+#: includes/php/settings-data.php:1683 includes/php/settings-data.php:2035
+msgid "Masonry: image width in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1684 includes/php/settings-data.php:1714
+#: includes/php/settings-data.php:1743 includes/php/settings-data.php:2036
+#: includes/php/settings-data.php:2066 includes/php/settings-data.php:2095
+msgid "example: 300"
+msgstr ""
+
+#: includes/php/settings-data.php:1692 includes/php/settings-data.php:2044
+msgid "Masonry: separation between elements in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1693 includes/php/settings-data.php:1723
+#: includes/php/settings-data.php:2045 includes/php/settings-data.php:2075
+msgid "example: 2"
+msgstr ""
+
+#: includes/php/settings-data.php:1703 includes/php/settings-data.php:2055
+msgid "Grid: number of columns"
+msgstr ""
+
+#: includes/php/settings-data.php:1713 includes/php/settings-data.php:2065
+msgid "Grid: image width in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1722 includes/php/settings-data.php:2074
+msgid "Grid: separation between elements in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1731 includes/php/settings-data.php:2083
+msgid "Grid: ratio image vertical/horizontal"
+msgstr ""
+
+#: includes/php/settings-data.php:1732 includes/php/settings-data.php:1772
+#: includes/php/settings-data.php:2084 includes/php/settings-data.php:2124
+msgid "examples: 1 (square)<br>0.5 (landscape)<br>2 (vertical)"
+msgstr ""
+
+#: includes/php/settings-data.php:1742 includes/php/settings-data.php:2094
+msgid "Justified grid: column height en pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1751 includes/php/settings-data.php:2103
+msgid "Justified grid: separation between elements in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1752 includes/php/settings-data.php:2104
+msgid "example: 1"
+msgstr ""
+
+#: includes/php/settings-data.php:1762 includes/php/settings-data.php:2114
+msgid "List: image width in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1763 includes/php/settings-data.php:2115
+msgid "example: 400"
+msgstr ""
+
+#: includes/php/settings-data.php:1771 includes/php/settings-data.php:2123
+msgid "List: ratio image vertical/horizontal"
+msgstr ""
+
+#: includes/php/settings-data.php:1782 includes/php/settings-data.php:2134
+msgid "Slider: image width in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1783 includes/php/settings-data.php:1841
+#: includes/php/settings-data.php:2135 includes/php/settings-data.php:2180
+msgid "example: 800"
+msgstr ""
+
+#: includes/php/settings-data.php:1802 includes/php/settings-data.php:2143
+msgid "Slider: image height in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1803 includes/php/settings-data.php:2144
+msgid "example: 500"
+msgstr ""
+
+#: includes/php/settings-data.php:1813 includes/php/settings-data.php:2152
+msgid "Slider: image mode"
+msgstr ""
+
+#: includes/php/settings-data.php:1826 includes/php/settings-data.php:2165
+msgid "Slider: display post excerpt"
+msgstr ""
+
+#: includes/php/settings-data.php:1840 includes/php/settings-data.php:2179
+msgid "Image width in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1849 includes/php/settings-data.php:2188
+msgid "Image height in pixels"
+msgstr ""
+
+#: includes/php/settings-data.php:1850 includes/php/settings-data.php:2189
+msgid ""
+"Example: 400 or <br>Leave it blank if you do not want to crop the image."
+msgstr ""
+
+#: includes/php/settings-data.php:1870 includes/php/settings-data.php:2211
+msgid ""
+"Not valid for Slider gallery<br>The number of posts in page is defined in <a "
+"href=\""
+msgstr ""
+
+#: includes/php/settings-data.php:1904 includes/php/settings-data.php:2245
+msgid "Order posts By"
+msgstr ""
+
+#: includes/php/settings-data.php:1944 includes/php/settings-data.php:2285
+msgid "Display border"
+msgstr ""
+
+#: includes/php/settings-data.php:1953 includes/php/settings-data.php:2294
+msgid "Hover: display link to post"
+msgstr ""
+
+#: includes/php/settings-data.php:1962 includes/php/settings-data.php:2303
+msgid "Hover: display link to lightbox"
+msgstr ""
+
+#: includes/php/settings-data.php:1972 includes/php/settings-data.php:2313
+msgid "Hover: display link to external page"
+msgstr ""
+
+#: includes/php/settings-data.php:1981 includes/php/settings-data.php:2322
+msgid "Hover: display content text"
+msgstr ""
+
+#: includes/php/settings-data.php:1998
+msgid "example: Projects Archive: %term%"
+msgstr ""
+
+#: includes/php/settings-data.php:2334
+msgid "Backup Options"
+msgstr ""
+
+#: includes/php/settings-data.php:2335
+msgid ""
+"This will generate a text with all the options and save it.<br>You can also "
+"copy the options from the textarea and save them in a text file."
+msgstr ""
+
+#: includes/php/settings-data.php:2338
+msgid "BACKUP OPTIONS"
+msgstr ""
+
+#: includes/php/settings-data.php:2344
+msgid "Restore Options"
+msgstr ""
+
+#: includes/php/settings-data.php:2345
+msgid "This will restore options with the data inside the textarea"
+msgstr ""
+
+#: includes/php/settings-data.php:2348
+msgid "RESTORE OPTIONS"
+msgstr ""
+
+#: includes/php/settings-data.php:2355
+msgid ""
+"Copy the text file of your options inside the textarea and press - RESTORE "
+"OPTIONS -"
+msgstr ""
+
+#: includes/php/settings-data.php:2370
+msgid "Keywords"
+msgstr ""
+
+#: includes/php/settings-data.php:2377
+msgid "Author"
+msgstr ""
+
+#: includes/php/settings-data.php:2423 includes/php/settings-data.php:2775
+#: includes/php/settings-data.php:3140 includes/php/settings-data.php:3300
+#: includes/php/settings-data.php:3420
+msgid "Background-color"
+msgstr ""
+
+#: includes/php/settings-data.php:2437 includes/php/settings-data.php:2902
+#: includes/php/settings-data.php:3106 includes/php/settings-data.php:3265
+#: includes/php/settings-data.php:3385 includes/php/settings-data.php:3487
+msgid "Back pattern"
+msgstr ""
+
+#: includes/php/settings-data.php:2445 includes/php/settings-data.php:2910
+#: includes/php/settings-data.php:3114 includes/php/settings-data.php:3273
+#: includes/php/settings-data.php:3393 includes/php/settings-data.php:3495
+msgid "Pattern fixed/scroll"
+msgstr ""
+
+#: includes/php/settings-data.php:2468
+msgid "Heading Font"
+msgstr ""
+
+#: includes/php/settings-data.php:2475
+msgid "Body Font"
+msgstr ""
+
+#: includes/php/settings-data.php:2482
+msgid "BLOG Title Font"
+msgstr ""
+
+#: includes/php/settings-data.php:2493
+msgid "H1 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2502
+msgid "H2 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2511
+msgid "H3 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2520
+msgid "H4 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2529
+msgid "H5 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2538
+msgid "H6 font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2562
+msgid "TOP: Font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2575
+msgid "TOP: Back Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2585
+msgid "TOP: Text Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2600
+msgid "TOP: Menu Hover Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2609
+msgid "TOP: Link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2618
+msgid "TOP: Hovered link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2631
+msgid "TOP: Division color"
+msgstr ""
+
+#: includes/php/settings-data.php:2644
+msgid "TOP: Back pattern"
+msgstr ""
+
+#: includes/php/settings-data.php:2662
+msgid "BOTTOM: Font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2675
+msgid "BOTTOM: Back Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2685
+msgid "BOTTOM: Text Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2698
+msgid "BOTTOM: Menu Hover Color"
+msgstr ""
+
+#: includes/php/settings-data.php:2707
+msgid "BOTTOM: Link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2716
+msgid "BOTTOM: Hovered link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2729
+msgid "BOTTOM: Division color"
+msgstr ""
+
+#: includes/php/settings-data.php:2738
+msgid "BOTTOM: Border color"
+msgstr ""
+
+#: includes/php/settings-data.php:2751
+msgid "BOTTOM: Back pattern"
+msgstr ""
+
+#: includes/php/settings-data.php:2762 includes/php/settings-data.php:2924
+#: includes/php/settings-data.php:3127 includes/php/settings-data.php:3287
+#: includes/php/settings-data.php:3407
+msgid "Font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2784 includes/php/settings-data.php:2955
+#: includes/php/settings-data.php:3149 includes/php/settings-data.php:3309
+msgid "Heading color"
+msgstr ""
+
+#: includes/php/settings-data.php:2793 includes/php/settings-data.php:2965
+#: includes/php/settings-data.php:3158 includes/php/settings-data.php:3318
+#: includes/php/settings-data.php:3429
+msgid "Text color"
+msgstr ""
+
+#: includes/php/settings-data.php:2806
+msgid "Sidebar right border"
+msgstr ""
+
+#: includes/php/settings-data.php:2815 includes/php/settings-data.php:3180
+msgid "Widgets division line"
+msgstr ""
+
+#: includes/php/settings-data.php:2824 includes/php/settings-data.php:3189
+msgid "Widgets background"
+msgstr ""
+
+#: includes/php/settings-data.php:2834 includes/php/settings-data.php:3199
+msgid "Widgets margin"
+msgstr ""
+
+#: includes/php/settings-data.php:2864
+msgid "Items border"
+msgstr ""
+
+#: includes/php/settings-data.php:2879 includes/php/settings-data.php:3064
+#: includes/php/settings-data.php:3242 includes/php/settings-data.php:3362
+#: includes/php/settings-data.php:3464
+msgid "Link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2888 includes/php/settings-data.php:3080
+#: includes/php/settings-data.php:3251 includes/php/settings-data.php:3371
+#: includes/php/settings-data.php:3473
+msgid "Hovered link color"
+msgstr ""
+
+#: includes/php/settings-data.php:2933
+msgid "Meta Font size"
+msgstr ""
+
+#: includes/php/settings-data.php:2946
+msgid "Back-color"
+msgstr ""
+
+#: includes/php/settings-data.php:2980
+msgid "Highlight-Back-color"
+msgstr ""
+
+#: includes/php/settings-data.php:2991
+msgid "Highlight Text color"
+msgstr ""
+
+#: includes/php/settings-data.php:3002
+msgid "Highlight Hover Text color"
+msgstr ""
+
+#: includes/php/settings-data.php:3016
+msgid "Alternate-Back-color"
+msgstr ""
+
+#: includes/php/settings-data.php:3026
+msgid "Alternate Text color"
+msgstr ""
+
+#: includes/php/settings-data.php:3040
+msgid "Window border color"
+msgstr ""
+
+#: includes/php/settings-data.php:3049
+msgid "Other borders color"
+msgstr ""
+
+#: includes/php/settings-data.php:3090
+msgid "Link Back color"
+msgstr ""
+
+#: includes/php/settings-data.php:3171
+msgid "Sidebar left border"
+msgstr ""
+
+#: includes/php/settings-data.php:3228 includes/php/settings-data.php:3349
+msgid "Menu lines"
+msgstr ""
+
+#: includes/php/settings-data.php:3331
+msgid "Footer top division"
+msgstr ""
+
+#: includes/php/settings-data.php:3340
+msgid "Widgets division"
+msgstr ""
+
+#: includes/php/settings-data.php:3442
+msgid "Division color"
+msgstr ""
+
+#: includes/php/settings-data.php:3451
+msgid "Border color"
+msgstr ""
+
+#: includes/php/sidebars.php:25
+msgid "Widget Area "
+msgstr ""
+
+#: includes/php/sidebars.php:27
+msgid ""
+"You can use this widget area in the sidebar or in the footer. Just select in "
+"the LAYOUT where you want this to appear."
+msgstr ""
+
+#: includes/php/template-content.php:222
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: includes/php/template-content.php:225
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: includes/php/template-content.php:228
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: includes/php/template-content.php:228
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/php/template-content.php:231
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: includes/php/template-content.php:231
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/php/template-content.php:253 includes/php/template-content.php:948
+#, php-format
+msgid "Permalink to: &#39;%s&#39;"
+msgstr ""
+
+#: includes/php/template-content.php:527 includes/php/template-content.php:599
+#: includes/php/template-content.php:841 includes/php/template-content.php:849
+#, php-format
+msgid "View all posts in: &#39;%s&#39;"
+msgstr ""
+
+#: includes/php/template-content.php:584 includes/php/template-content.php:823
+#, php-format
+msgid "All posts by: &#39;%s&#39;"
+msgstr ""
+
+#: includes/php/template-content.php:585 includes/php/template-content.php:824
+msgid "By "
+msgstr ""
+
+#: includes/php/template-content.php:617 includes/php/template-content.php:621
+#, php-format
+msgid "Leave a comment on: &#39;%s&#39;"
+msgstr ""
+
+#: includes/php/template-content.php:625
+#, php-format
+msgid "View all comments on: &#39;%s&#39;"
+msgstr ""
+
+#: includes/php/template-content.php:728
+msgid "Read More"
+msgstr ""
+
+#: includes/php/template-content.php:1775
+msgid "About the Author:"
+msgstr ""
+
+#: includes/php/template-content.php:1848
+msgid "Related posts:"
+msgstr ""
+
+#: includes/php/template-content.php:1866
+msgid "Comments:"
+msgstr ""
+
+#: includes/php/template-content.php:1898
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/php/template-content.php:1902
+msgid " - Edit"
+msgstr ""
+
+#: includes/php/template-content.php:1904
+msgid " - Reply"
+msgstr ""
+
+#: includes/php/template-content.php:1912
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/php/template-navigation.php:24 page.php:56
+msgid "Pages:"
+msgstr ""
+
+#: includes/php/template-navigation.php:133
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: includes/php/template-navigation.php:139
+msgid "LOAD MORE"
+msgstr ""
+
+#: includes/php/template-navigation.php:144
+msgid "SCROLL TO LOAD MORE"
+msgstr ""
+
+#: includes/php/template-navigation.php:218
+msgid "Category "
+msgstr ""
+
+#: includes/php/template-navigation.php:223
+msgid "Search Results for "
+msgstr ""
+
+#: includes/php/template-navigation.php:232
+msgid "See All Posts"
+msgstr ""
+
+#: includes/php/template-navigation.php:262
+msgid "Posts Tagged as "
+msgstr ""
+
+#: includes/php/template-navigation.php:269
+msgid "Posts by "
+msgstr ""
+
+#: includes/php/template-navigation.php:274
+msgid "404 (Page Not Found)"
+msgstr ""
+
+#: includes/php/template-navigation.php:279
+msgid "Archives "
+msgstr ""
+
+#: includes/php/template-navigation.php:288
+msgid "Page"
+msgstr ""
+
+#: includes/php/template-tags-project.php:134
+#: includes/php/template-tags-project.php:278
+msgid "Project Description"
+msgstr "Descripción"
+
+#: includes/php/template-tags-project.php:139
+msgid "Project Details"
+msgstr ""
+
+#: includes/php/template-tags-project.php:159
+msgid "Skills Needed"
+msgstr ""
+
+#: includes/php/template-tags-project.php:170
+msgid "Categories"
+msgstr ""
+
+#: includes/php/template-tags-project.php:181
+msgid "Tags"
+msgstr ""
+
+#: includes/php/template-tags-project.php:191
+#: includes/php/template-tags-project.php:271
+msgid "Project link"
+msgstr "Link externo"
+
+#: includes/php/template-tags-project.php:422
+msgid "Related projects:"
+msgstr ""
+
+#: includes/php/welcome.php:52 includes/php/welcome.php:53
+msgid "Welcome to Projects Theme"
+msgstr ""
+
+#: includes/php/welcome.php:61 includes/php/welcome.php:62
+msgid "Getting started with Projects Theme"
+msgstr ""
+
+#: includes/php/welcome.php:100
+msgid "What's New"
+msgstr ""
+
+#: includes/php/welcome.php:103
+msgid "Getting Started"
+msgstr ""
+
+#: includes/php/welcome.php:120 includes/php/welcome.php:192
+#, php-format
+msgid "Welcome to Projects Theme %s"
+msgstr ""
+
+#: includes/php/welcome.php:121 includes/php/welcome.php:193
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: includes/php/welcome.php:122 includes/php/welcome.php:194
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/php/welcome.php:126 includes/php/welcome.php:198
+msgid ""
+"Use the tips below to get started using Projects. You will be up and running "
+"in no time!"
+msgstr ""
+
+#: includes/php/welcome.php:130 includes/php/welcome.php:146
+#: includes/php/welcome.php:162 includes/php/welcome.php:201
+#: includes/php/welcome.php:220 includes/php/welcome.php:236
+msgid "Some title text"
+msgstr ""
+
+#: includes/php/welcome.php:136 includes/php/welcome.php:152
+#: includes/php/welcome.php:168 includes/php/welcome.php:226
+#: includes/php/welcome.php:242
+msgid "Some subtitle text"
+msgstr ""
+
+#: includes/php/welcome.php:137 includes/php/welcome.php:140
+#: includes/php/welcome.php:153 includes/php/welcome.php:156
+#: includes/php/welcome.php:169 includes/php/welcome.php:172
+#: includes/php/welcome.php:227 includes/php/welcome.php:230
+#: includes/php/welcome.php:243 includes/php/welcome.php:246
+msgid "Some description text"
+msgstr ""
+
+#: includes/php/welcome.php:139 includes/php/welcome.php:155
+#: includes/php/welcome.php:171 includes/php/welcome.php:229
+#: includes/php/welcome.php:245
+msgid "Easily Access Reports"
+msgstr ""
+
+#: includes/php/welcome.php:207
+msgid "Basic Installation"
+msgstr ""
+
+#: includes/php/welcome.php:210
+msgid "Install on click example"
+msgstr ""
+
+#: includes/php/welcome.php:213
+msgid "Styling"
+msgstr ""
+
+#: includes/plugins/importer/parsers.php:47
+#: includes/plugins/importer/parsers.php:77
+#: includes/plugins/importer/parsers.php:85
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/plugins/importer/parsers.php:48
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/plugins/importer/parsers.php:89
+#: includes/plugins/importer/parsers.php:94
+#: includes/plugins/importer/parsers.php:284
+#: includes/plugins/importer/parsers.php:473
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/plugins/importer/projects-importer.php:14
+msgid "EXAMPLE CONTENT HAS BEEN IMPORTED ;)"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:137
+#: includes/plugins/importer/wordpress-importer.php:146
+#: includes/plugins/importer/wordpress-importer.php:197
+#: includes/plugins/importer/wordpress-importer.php:201
+#: includes/plugins/importer/wordpress-importer.php:210
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:138
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:181
+msgid "All done."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:181
+msgid "Have fun!"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:182
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:202
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:218
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:243
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:269
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:270
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:272
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:282
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:285
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:289
+msgid "Submit"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:302
+msgid "Import author:"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:313
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:316
+msgid "as a new user:"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:324
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:326
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:327
+msgid "- Select -"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:377
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:428
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:468
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:514
+#: includes/plugins/importer/wordpress-importer.php:655
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:540
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:562
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:621
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:786
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:793
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:869
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:913
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:919
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:926
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:931
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:937
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:1036
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:1043
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:1058
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/plugins/importer/wordpress-importer.php:1059
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/widgets/ads_1_1.php:19
+msgctxt "widget"
+msgid "ADS 1x1"
+msgstr ""
+
+#: includes/widgets/ads_1_1.php:20
+msgctxt "widget"
+msgid "ELAP: ADS 1x1"
+msgstr ""
+
+#: includes/widgets/ads_1_1.php:45 includes/widgets/ads_2_2.php:50
+msgctxt "widget"
+msgid "Image"
+msgstr ""
+
+#: includes/widgets/ads_1_1.php:48 includes/widgets/ads_2_2.php:53
+msgctxt "widget"
+msgid "Link Image"
+msgstr ""
+
+#: includes/widgets/ads_2_2.php:19
+msgctxt "widget"
+msgid "ADS 2x2"
+msgstr ""
+
+#: includes/widgets/ads_2_2.php:20
+msgctxt "widget"
+msgid "ELAP: ADS 2x2"
+msgstr ""
+
+#: includes/widgets/contact-info.php:22
+msgctxt "widget"
+msgid "Contact info"
+msgstr ""
+
+#: includes/widgets/contact-info.php:23
+msgctxt "widget"
+msgid "ELAP: Contact info"
+msgstr ""
+
+#: includes/widgets/contact-info.php:36 includes/widgets/custom-menu.php:52
+#: includes/widgets/list-posts.php:216 includes/widgets/list-projects.php:241
+#: includes/widgets/tabs-posts.php:55 includes/widgets/tabs-projects.php:55
+msgctxt "widget"
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/contact-info.php:40 includes/widgets/custom-menu.php:56
+#: includes/widgets/list-posts.php:220 includes/widgets/list-projects.php:245
+msgctxt "widget"
+msgid "Text:"
+msgstr ""
+
+#: includes/widgets/contact-info.php:44
+msgctxt "widget"
+msgid "Social links:"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:19
+msgctxt "widget"
+msgid "Custom menu"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:20
+msgctxt "widget"
+msgid "ELAP: Custom menu"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:45
+msgctxt "widget"
+msgid "Expanded"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:46
+msgctxt "widget"
+msgid "Collapsible closed"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:47
+msgctxt "widget"
+msgid "Collapsible opened"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:61
+msgctxt "widget"
+msgid "Select menu:"
+msgstr ""
+
+#: includes/widgets/custom-menu.php:74
+msgctxt "widget"
+msgid "Select type:"
+msgstr ""
+
+#: includes/widgets/list-posts.php:27
+msgctxt "widget"
+msgid "List posts"
+msgstr ""
+
+#: includes/widgets/list-posts.php:28
+msgctxt "widget"
+msgid "ELAP: List posts"
+msgstr ""
+
+#: includes/widgets/list-posts.php:240 includes/widgets/list-projects.php:269
+msgctxt "widget"
+msgid "Select categories:"
+msgstr ""
+
+#: includes/widgets/list-posts.php:242 includes/widgets/list-posts.php:264
+#: includes/widgets/list-projects.php:271
+#: includes/widgets/list-projects.php:293
+#: includes/widgets/list-projects.php:315
+msgctxt "widget"
+msgid "All"
+msgstr ""
+
+#: includes/widgets/list-posts.php:243 includes/widgets/list-posts.php:265
+#: includes/widgets/list-projects.php:272
+#: includes/widgets/list-projects.php:294
+#: includes/widgets/list-projects.php:316
+msgctxt "widget"
+msgid "Only"
+msgstr ""
+
+#: includes/widgets/list-posts.php:262 includes/widgets/list-projects.php:291
+msgctxt "widget"
+msgid "Select tags:"
+msgstr ""
+
+#: includes/widgets/list-posts.php:282 includes/widgets/list-projects.php:333
+msgctxt "widget"
+msgid "Number of posts:"
+msgstr ""
+
+#: includes/widgets/list-posts.php:289 includes/widgets/list-projects.php:340
+msgctxt "widget"
+msgid "Order by ID"
+msgstr ""
+
+#: includes/widgets/list-posts.php:290 includes/widgets/list-projects.php:341
+msgctxt "widget"
+msgid "Order by author"
+msgstr ""
+
+#: includes/widgets/list-posts.php:291 includes/widgets/list-projects.php:342
+msgctxt "widget"
+msgid "Order by title"
+msgstr ""
+
+#: includes/widgets/list-posts.php:292 includes/widgets/list-projects.php:343
+msgctxt "widget"
+msgid "Order by date"
+msgstr ""
+
+#: includes/widgets/list-posts.php:293 includes/widgets/list-projects.php:344
+msgctxt "widget"
+msgid "Order by modified"
+msgstr ""
+
+#: includes/widgets/list-posts.php:294 includes/widgets/list-projects.php:345
+msgctxt "widget"
+msgid "Order by rand"
+msgstr ""
+
+#: includes/widgets/list-posts.php:298 includes/widgets/list-projects.php:349
+#: includes/widgets/tabs-posts.php:86 includes/widgets/tabs-projects.php:88
+msgctxt "widget"
+msgid "Title only"
+msgstr ""
+
+#: includes/widgets/list-posts.php:299 includes/widgets/list-projects.php:350
+#: includes/widgets/tabs-posts.php:87 includes/widgets/tabs-projects.php:89
+msgctxt "widget"
+msgid "Square image"
+msgstr ""
+
+#: includes/widgets/list-posts.php:300 includes/widgets/list-projects.php:351
+#: includes/widgets/tabs-posts.php:88 includes/widgets/tabs-projects.php:90
+msgctxt "widget"
+msgid "Featured image + title"
+msgstr ""
+
+#: includes/widgets/list-posts.php:301 includes/widgets/list-projects.php:352
+#: includes/widgets/tabs-posts.php:89 includes/widgets/tabs-projects.php:91
+msgctxt "widget"
+msgid "Featured image landscape + title"
+msgstr ""
+
+#: includes/widgets/list-posts.php:302 includes/widgets/list-projects.php:353
+#: includes/widgets/tabs-posts.php:90 includes/widgets/tabs-projects.php:92
+msgctxt "widget"
+msgid "Featured image square + title"
+msgstr ""
+
+#: includes/widgets/list-posts.php:308 includes/widgets/list-projects.php:359
+msgctxt "widget"
+msgid "Sort by:"
+msgstr ""
+
+#: includes/widgets/list-posts.php:318 includes/widgets/list-projects.php:369
+msgctxt "widget"
+msgid "Ascending"
+msgstr ""
+
+#: includes/widgets/list-posts.php:321 includes/widgets/list-projects.php:372
+msgctxt "widget"
+msgid "Descending"
+msgstr ""
+
+#: includes/widgets/list-posts.php:326 includes/widgets/list-projects.php:377
+#: includes/widgets/tabs-posts.php:116 includes/widgets/tabs-projects.php:118
+msgctxt "widget"
+msgid "Display:"
+msgstr ""
+
+#: includes/widgets/list-projects.php:30
+msgctxt "widget"
+msgid "List projects"
+msgstr ""
+
+#: includes/widgets/list-projects.php:31
+msgctxt "widget"
+msgid "ELAP: List projects"
+msgstr ""
+
+#: includes/widgets/list-projects.php:313
+msgctxt "widget"
+msgid "Select skills:"
+msgstr ""
+
+#: includes/widgets/list-projects.php:386 includes/widgets/tabs-posts.php:125
+#: includes/widgets/tabs-projects.php:127
+msgctxt "widget"
+msgid "Show date"
+msgstr ""
+
+#: includes/widgets/logo-title.php:21
+msgctxt "widget"
+msgid "Logo / Title"
+msgstr ""
+
+#: includes/widgets/logo-title.php:22
+msgctxt "widget"
+msgid "ELAP: Logo / Title"
+msgstr ""
+
+#: includes/widgets/logo-title.php:67
+msgctxt "widget"
+msgid "Show LOGO"
+msgstr ""
+
+#: includes/widgets/logo-title.php:71
+msgctxt "widget"
+msgid "Logo width in %:"
+msgstr ""
+
+#: includes/widgets/logo-title.php:76
+msgctxt "widget"
+msgid "Logo position:"
+msgstr ""
+
+#: includes/widgets/logo-title.php:90
+msgctxt "widget"
+msgid "Show TITLE"
+msgstr ""
+
+#: includes/widgets/logo-title.php:95
+msgctxt "widget"
+msgid "Show TAGLINE"
+msgstr ""
+
+#: includes/widgets/tabs-posts.php:24
+msgctxt "widget"
+msgid "Tabs Posts"
+msgstr ""
+
+#: includes/widgets/tabs-posts.php:25
+msgctxt "widget"
+msgid "ELAP: Tabs Posts"
+msgstr ""
+
+#: includes/widgets/tabs-posts.php:60 includes/widgets/tabs-projects.php:60
+msgctxt "widget"
+msgid "Number of items for each Tab:"
+msgstr ""
+
+#: includes/widgets/tabs-posts.php:99
+msgctxt "widget"
+msgid "Category/Tag fot TAB "
+msgstr ""
+
+#: includes/widgets/tabs-projects.php:24
+msgctxt "widget"
+msgid "Tabs projects"
+msgstr ""
+
+#: includes/widgets/tabs-projects.php:25
+msgctxt "widget"
+msgid "ELAP: Tabs projects"
+msgstr ""
+
+#: includes/widgets/tabs-projects.php:101
+msgctxt "widget"
+msgid "Taxonomy fot TAB "
+msgstr ""
+
+#: layout/search/search_list.php:12
+msgid "[POST]"
+msgstr ""
+
+#: layout/search/search_list.php:13
+msgid "[PAGE]"
+msgstr ""
+
+#: layout/search/search_list.php:14
+msgid "[PROJECT]"
+msgstr ""
+
+#: search.php:23
+msgid "Search results for:"
+msgstr ""
+
+#: search.php:28
+msgid "Need a new search?"
+msgstr ""
+
+#: searchform.php:10 searchform.php:11 searchform.php:12
+msgid "Search"
+msgstr ""

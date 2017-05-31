@@ -1,0 +1,150 @@
+// MENU MOBILE COLLAPSE
+
+//Desaparece todo lo que no sea menu
+
+// Lo paso a variable por lo que solo puede ponerse en CSS una sola vez, no es como los colores que se sobreescriben
+
+@media (max-width: @menu_collapse_width) {
+  //MEnus ocultos
+  #menu-header .container {
+    >.head-top,
+    >.head-center,
+    >.head-bottom  {
+      .nav-menu-wrap { display: none; }
+    }
+  }
+  #menu-mobile-btn { display: block; }
+}
+
+
+
+
+
+// RESPONSIVE SIDEBARS
+
+
+.responsive-sidebars-yes {
+
+  @media screen and (max-width:@sidebars_collapse_width) {
+
+    //Ya no es una tabla
+    .table-container { display: block; }
+    #left-sidebar,
+    #right-sidebar,
+    #main-content {
+      display: block;
+      width: 100%;
+      min-width: inherit;
+      max-width: inherit;
+    }
+    #left-sidebar { border-right: none; }
+    #right-sidebar { border-left: none; }
+
+    //Mostrar ocultar sidebars
+    &.responsive-sidebars-both {
+
+    }
+    &.responsive-sidebars-left {
+      #right-sidebar { display: none; }
+    }
+    &.responsive-sidebars-right {
+      #left-sidebar { display: none; }
+    }
+    &.responsive-sidebars-none {
+      #left-sidebar { display: none; }
+      #right-sidebar { display: none; }
+    }
+
+  }
+}
+
+.responsive-sidebars-floated {
+
+  @media screen and (max-width:@sidebars_collapse_width) {
+
+    //Ya no es una tabla
+    .table-container { display: block; }
+    #main-content {
+      display: block;
+      width: 100%;
+      min-width: inherit;
+      max-width: inherit;
+    }
+    #left-sidebar { border-right: none; }
+    #right-sidebar { border-left: none; }
+
+
+    #left-sidebar {
+      z-index:1000;
+      position:fixed;
+      top:0px; bottom:0px;
+      left:-350px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+      &.open { left: 0px; transition: all 0.3s ease; }
+      &>.row {
+        height: 100%;
+        overflow: scroll;
+      }
+    }
+    #left-sidebar-open {
+      z-index: 1001;
+      position: fixed;
+      bottom: 60px;
+      left: 0px;
+      width: 30px;
+      height: 60px;
+      display:block;
+      background-color: black;
+      border:1px solid #ababab;
+      border-left: 0px;
+      cursor: pointer;
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+      &:before {
+        content: '\f105';
+        font-family: 'FontAwesome';
+        line-height: 60px;
+        padding-left: 12px;
+        color:white;
+      }
+      &.open:before { content: '\f104'; }
+    }
+
+    #right-sidebar {
+      z-index:1000;
+      position:fixed;
+      top:0px; bottom:0px;
+      right:-350px;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+      transition: all 0.3s ease;
+      &.open { right: 0px; transition: all 0.3s ease; }
+      &>.row {
+        height: 100%;
+        overflow: scroll;
+      }
+    }
+    #right-sidebar-open {
+      z-index: 1001;
+      position: fixed;
+      bottom: 60px;
+      right: 0px;
+      width: 30px;
+      height: 60px;
+      display:block;
+      background-color: black;
+      border:1px solid #ababab;
+      border-right: 0px;
+      cursor: pointer;
+      box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+      &:before {
+        content: '\f104';
+        font-family: 'FontAwesome';
+        line-height: 60px;
+        padding-left: 12px;
+        color:white;
+      }
+      &.open:before { content: '\f105'; }
+    }
+
+  }
+}

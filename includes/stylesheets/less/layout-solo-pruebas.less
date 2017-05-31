@@ -1,0 +1,105 @@
+
+
+/* MI LAYOUT de pruebas */
+/*===============================================*/
+
+#page {
+	
+}
+
+/* HEAD */
+.top-image {
+	background-color: #d9d9d9;
+	height: 100px;
+}
+.top-slider {
+	background-color: #989898;
+	height: 100px;
+}
+.masthead {
+	background-color: orange;
+}
+.head-top {
+	height: 32px;
+}
+.head-center {
+	height: 70px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.head-bottom {
+	height: 32px;
+}
+.bottom-slider {
+	background-color: #989898;
+	height: 100px;
+}
+
+
+/* MAIN CONTENT */
+#main {
+	background-color: yellow;
+}
+.table-container {
+	display: table; 
+	vertical-align: top;
+}
+#left-sidebar {
+	width: 200px; min-width: 200px; max-width: 200px;
+	display: table-cell; 
+	vertical-align: top;
+	background-color: cyan;
+}
+#right-sidebar {
+	width: 200px; min-width: 200px; max-width: 200px;
+	display: table-cell; 
+	vertical-align: top;
+	background-color: cyan;
+}
+#main-content {
+	display: table-cell;
+	width: 100%;
+	overflow: hidden;
+}
+@media screen and (max-width:767px) {
+	.table-container { display: block; }
+	#left-sidebar,
+	#right-sidebar,
+	#main-content {
+		display: block;
+		width: 100%;
+		min-width: inherit;
+		max-width: inherit;
+	}
+}
+
+/* FOOTER SOCKET */
+#footer {
+	background-color: #f04343;
+	height: 100px;
+}
+#socket {
+	background-color: #5a3a3a;
+	height: 40px;
+}
+
+
+
+
+
+/* Para probar layout */
+/*===============================================*/
+
+.container { 
+	background-color:rgba(236,136,215,0.31); 
+}
+.full-width .container {
+	width: 100% !important;
+}
+
+#main-content img { max-width: 100%; height: auto; }
+
+
+
+
+

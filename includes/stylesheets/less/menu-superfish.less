@@ -1,0 +1,331 @@
+
+//-------------------------------------------
+// SUPERFISH MENU
+//-------------------------------------------
+
+
+// ESSENTIAL STYLE
+
+.sf-menu,
+.sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+.sf-menu {
+	li {
+		position: relative;
+	}
+	ul {
+		position: absolute;
+		display: none;
+		top: 100% ;
+		left: 0px;
+		z-index: 99;
+	}
+	> li {
+		float: left;
+	}
+	li:hover > ul,
+	li.sfHover > ul {
+		display: block;
+	}
+	a {
+		display: block;
+		position: relative;
+	}
+	ul ul {
+		top: -1px; //Por el border-top
+		left: 100%;
+	}
+}
+
+// flotar todo el menu a la izquierda o a la derecha
+
+.sf-menu.sf-right {
+	float: right;
+	ul {
+		left: auto;
+		right: 0px;
+	}
+	ul ul {
+		left: auto;
+		right: 100%;
+	}
+}
+
+
+
+// SKIN
+@menu_fontsize:							14px;
+@menu_border_top_color: 		red;
+@menu_border_bottom_color: 	red;
+
+// IMPORTANTE variables en layout-header-socker-less
+@menu_height_banda1:				@header_center_height; 
+@menu_sub_height_banda1:		40px; 
+@menu_height_banda2:				@header_top_height;
+@menu_sub_height_banda2:		36px;
+
+
+@menu_color: 								#333;
+@menu_backcolor: 						white;
+@menu_divide_color: 				#dedede;
+@menu_hover_color: 					black;
+@menu_hover_backcolor:			#dedede;
+@menu_arrow_color:					@menu_color;
+@menu_arrow_hover_color:		@menu_hover_color;
+
+@menu_sub1_color: 					#dedede;
+@menu_sub1_backcolor:				#333;
+@menu_sub1_divide_color: 		#444;
+@menu_sub1_hover_color: 		white;
+@menu_sub1_hover_backcolor:	black;
+
+@menu_sub2_color: 					@menu_sub1_color;
+@menu_sub2_backcolor:				@menu_sub1_backcolor;
+@menu_sub2_divide_color: 		@menu_sub1_divide_color;
+@menu_sub2_hover_color: 		@menu_sub1_hover_color;
+@menu_sub2_hover_backcolor:	@menu_sub1_hover_backcolor;
+
+@menu_sub_arrow_color:			@menu_sub1_color;
+@menu_sub_arrow_hover_color:@menu_sub1_hover_color;
+
+
+.sf-menu {
+	float: left;
+	//margin-bottom: 1em;
+	font-size: @menu_fontsize;
+}
+.sf-menu ul {
+	box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+	min-width: 12em; /* allow long menu items to determine submenu width */
+	*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+.sf-menu a {
+	color: @menu_color;
+	padding: 0.0em 1em;
+	line-height: @menu_height_banda1;
+	text-decoration: none;
+	zoom: 1; /* IE7 */
+}
+.sf-menu li li a {
+	line-height: @menu_sub_height_banda1;
+}
+.sf-menu.sf-banda1 {
+	a { line-height: @menu_height_banda1; }
+	li li a { line-height: @menu_sub_height_banda1; }
+}
+.sf-menu.sf-banda2 {
+	a { line-height: @menu_height_banda2; }
+	li li a { line-height: @menu_sub_height_banda2; }
+}
+.sf-menu {
+	border-top: 1px solid @menu_border_top_color;
+	border-bottom: 1px solid @menu_border_bottom_color;
+}
+.sf-menu.sf-no-border {
+	border-top: none;
+	border-bottom: none;
+}
+.sf-menu >li>a {
+	border-left: 1px solid @menu_divide_color;
+}
+.sf-menu >li:first-child>a {
+	border-left: none;
+}
+.sf-menu li {
+	background: @menu_backcolor;
+	white-space: nowrap; /* no need for Supersubs plugin */
+	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+.sf-menu ul li {
+	background: @menu_sub1_backcolor;
+	a { color:@menu_sub1_color; }
+	border-top: 1px solid @menu_sub1_divide_color;
+	&:first-child { border-top-width: 2px; }
+}
+.sf-menu ul ul li {
+	background: @menu_sub2_backcolor;
+	a { color:@menu_sub2_color; }
+	border-top: 1px solid @menu_sub2_divide_color;
+	&:first-child { border-top-width: 1px; }
+}
+
+
+.sf-menu li:hover ,
+.sf-menu li.sfHover  {
+	>a { color: @menu_hover_color; }
+	background: @menu_hover_backcolor;
+	// only transition out, not in 
+	-webkit-transition: none;
+	transition: none;
+}
+.sf-menu li li:hover ,
+.sf-menu li li.sfHover  {
+	>a { color: @menu_sub1_hover_color; }
+	background: @menu_sub1_hover_backcolor;
+}
+
+.sf-menu li li li:hover ,
+.sf-menu li li li.sfHover {
+	>a { color: @menu_sub2_hover_color; }
+	background: @menu_sub2_hover_backcolor;
+}
+
+
+/*** arrows (for all except IE7) **/
+		
+.sf-arrows .sf-with-ul {
+	padding-right: 2.5em;
+	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+
+
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after,
+.sf-arrows .sf-with-ul:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 0.75em;
+	margin-top: -5px;
+	height: 4px;
+	width: 10px;
+	border-top: 1px solid @menu_arrow_color;
+	border-bottom: 1px solid @menu_arrow_color;
+}
+.sf-arrows .sf-with-ul:before { border-bottom: 0px; } //ANulada una linea
+
+.sf-arrows .sf-with-ul:before { margin-top: 1px;}
+
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after,
+.sf-arrows > li > .sf-with-ul:focus:before,
+.sf-arrows > li:hover > .sf-with-ul:before,
+.sf-arrows > .sfHover > .sf-with-ul:before {
+	border-top-color: @menu_arrow_hover_color;
+	border-bottom-color: @menu_arrow_hover_color;
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after,
+.sf-arrows ul .sf-with-ul:before  {
+	border-top-color: @menu_sub_arrow_color;
+	border-bottom-color: @menu_sub_arrow_color;
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after,
+.sf-arrows ul li > .sf-with-ul:focus:before,
+.sf-arrows ul li:hover > .sf-with-ul:before,
+.sf-arrows ul .sfHover > .sf-with-ul:before {
+	border-top-color: @menu_sub_arrow_hover_color;
+	border-bottom-color: @menu_sub_arrow_hover_color;
+}
+
+
+
+/* adding sf-vertical class in addition to sf-menu creates a vertical menu */
+/* eg. <ul class="sf-menu sf-vertical"> ... */
+.sf-vertical {
+  min-width: 10em;
+  ul { left:	100%; top: 0; }
+	> li { float: none; }
+	li { width: 100%; }
+  
+  //Estilo
+	border-top: none;
+	border-bottom: none;
+	>li>a {
+		border-left: none; 
+		border-bottom: 1px solid @menu_divide_color;
+	}
+	>li:first-child>a {
+		border-top: 1px solid @menu_divide_color;
+	}
+}
+
+
+//MI MEGA MENU
+
+//Para que salgan bien en su sitio
+.head-top, .head-center, .head-bottom { position: relative; }
+
+li.item_is_megamenu {
+    position: static;
+  cursor: pointer;
+
+
+  .submenu_megamenu
+  {
+    width: 100%;
+    background-color: yellow;
+    padding:10px;
+    //border-top: 1px solid black; //COLOR
+
+    ul,li { background-color: transparent !important; box-shadow:none; border: none !important; }
+
+    ul {
+      display: block;
+      position: relative;
+      left: 0px;
+      right: auto;
+    }
+
+    .column-title { margin-bottom: 6px;}
+
+    .megamenu_newrow {
+      display:block;
+      width:100%;
+      margin: 5px 0px;
+    }
+
+    .megamenu_column {
+      width:20%;//Solo de ejemplo
+
+      &.mega-column-1 { width:100%; }
+      &.mega-column-2 { width:50%;  }
+      &.mega-column-3 { width:33%;  }
+      &.mega-column-4 { width:25%;  }
+      &.mega-column-5 { width:20%;  }
+
+      padding:5px;
+      display:inline-block; margin-left:-3px;
+      vertical-align: top;
+      //border-left: 1px solid black; //COLOR
+      // &:last-child { border-right:0px;}
+    }
+    .megamenu_column:first-child { border: 0px; }
+    .megamenu_newrow + .megamenu_column { border: 0px; }
+
+    * { white-space: normal ;}
+    a { line-height: 1.15em ; padding:0px; }
+
+    .menu-item > a { padding: 3px 0px 3px;}
+  }
+
+}
+
+//Para el menu movil no se aplican las columnas
+#menu-mobile-list {
+
+  .item_is_megamenu >a { border: 1px solid red; text-align: center; }
+
+  .megamenu_column {
+    width: 100% !important;
+    text-align: center;
+    .column-title {
+      width: 70%;
+      margin: 0 auto;
+      border-bottom: 1px solid red;
+    }
+    div { margin: 0 auto; } //Para que centre los contenidos
+
+    .menu-item { padding: 5px 0px;}
+  }
+}
+

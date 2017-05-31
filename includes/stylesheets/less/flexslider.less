@@ -1,0 +1,76 @@
+/* Corregir errores en flexslider */
+/*===============================================*/
+
+.flexslider {
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin: 0;
+}
+
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a  { 
+	text-decoration:none;
+	z-index: 10;
+	opacity: 0; 
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 46px;
+	height: 46px;
+	width: 46px;
+	border: 0;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 46px;
+	text-align: center;
+	overflow: hidden;
+	//text-indent: 99em;
+	color: white;
+	background-color: black;
+	
+	-webkit-transition: all .3s ease; 
+	-moz-transition: all .3s ease; 
+	transition: all .3s ease;
+}
+//.flex-direction-nav .flex-prev { left: -50px; }
+//.flex-direction-nav .flex-next { right: -50px; text-align: right; }
+.flexslider:hover .flex-prev { opacity: 0.8; }
+.flexslider:hover .flex-next { opacity: 0.8;  }
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); cursor: default; }
+
+
+
+
+
+.flex-direction-nav a.flex-prev {
+	left: 0px; right: auto;
+	border-radius: 0px;
+}
+.flex-direction-nav a.flex-next {
+	left: auto; right: 0px;
+	border-radius: 0px;
+}
+
+.flex-direction-nav a:before  { 
+	font-family: "FontAwesome"; 
+	font-size: 40px; display: block;
+	content: '\f104'; }
+	
+.flex-direction-nav a.flex-next:before  { 
+	content: '\f105'; }
+
+.flex-direction-nav a.flex-prev:before,
+.flex-direction-nav a.flex-next:before  {
+	font-size: 16px;
+}
+
+
+
+
+//Al arrancar muestra solo la primera imagen
+.flexslider .slides > li:first-child { display: block; }
